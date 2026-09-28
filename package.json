@@ -1,7 +1,7 @@
 {
   "name": "open-scrapers",
   "version": "0.1.0",
-  "description": "Structured scrapers for Amazon, Zillow and YouTube, plus a catalog of 1,000+ site APIs for agents and code. Built on the Unbrowse SDK.",
+  "description": "Structured scrapers for Amazon, Zillow, YouTube, Craigslist, Google News and Greenhouse/Lever/Ashby job boards, plus a catalog of 1,000+ site APIs for agents and code. Built on the Unbrowse SDK.",
   "license": "MIT",
   "type": "module",
   "engines": { "node": ">=18.17" },
@@ -9,7 +9,7 @@
     "test": "node --test \"scrapers/*/test.mjs\" test/*.test.mjs",
     "catalog": "node catalog/build.mjs"
   },
-  "keywords": ["scraper", "web-scraping", "amazon-scraper", "zillow-scraper", "youtube-scraper", "mcp", "ai-agents", "unbrowse"],
+  "keywords": ["scraper", "web-scraping", "amazon-scraper", "zillow-scraper", "youtube-scraper", "craigslist-scraper", "google-news-scraper", "job-scraper", "greenhouse", "lever", "ashby", "mcp", "ai-agents", "unbrowse"],
   "dependencies": {
     "@unbrowse/sdk": "^12.1.1",
     "cheerio": "^1.0.0"

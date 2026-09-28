@@ -1,6 +1,6 @@
 # open-scrapers: structured scrapers and 1,000+ site APIs for agents and code
 
-Open-source web scrapers that return clean JSON records, not page text: Amazon products, Zillow listings and YouTube videos. Plus a catalog of 2,000+ websites you can call as an API or an MCP server. Node.js, MIT licensed, built on the [Unbrowse](https://unbrowse.ai) SDK.
+Open-source web scrapers that return clean JSON records, not page text: Amazon products, Zillow listings, YouTube videos, Craigslist posts, Google News articles, and jobs from Greenhouse, Lever and Ashby career sites. Plus a catalog of 2,000+ websites you can call as an API or an MCP server. Node.js, MIT licensed, built on the [Unbrowse](https://unbrowse.ai) SDK.
 
 - **No headless browser, no proxy pool.** Each page is requested from your own machine and parsed locally.
 - **Structured output.** Prices as numbers, dates as ISO strings, flags as booleans, with a documented field table per scraper.
@@ -19,6 +19,9 @@ export UNBROWSE_API_KEY=ub_live_...
 node scrapers/amazon/index.mjs "wireless earbuds" --max 40 > earbuds.json
 node scrapers/zillow/index.mjs "Austin, TX" --type FOR_SALE --max 100 > austin.json
 node scrapers/youtube/index.mjs "lofi hip hop" --details > lofi.json
+node scrapers/career-site-jobs/index.mjs https://boards.greenhouse.io/figma lever:spotify > jobs.json
+node scrapers/craigslist/index.mjs austin --category apa --max-price 1500 > apartments.json
+node scrapers/google-news/index.mjs "nvidia" --when 7d > news.json
 ```
 
 JSON goes to stdout, progress to stderr. Each scraper is also an importable module:
@@ -35,10 +38,13 @@ const rentals = await scrape("78704", { type: "FOR_RENT", minBeds: 2, max: 50 })
 | [Amazon Scraper](scrapers/amazon) | Search results and product pages: price, currency, rating, reviews, bought-last-month, sponsored flag, seller, Best Sellers Rank, images, specs | 40 search results (3 pages) + 1 product; 37 priced, all USD |
 | [Zillow Scraper](scrapers/zillow) | For-sale, rental and sold listings: price, beds, baths, sqft, lot, coordinates, Zestimate, tax value, days on Zillow, photos; filters | 60 for sale (Austin, TX) and 60 rentals (78704, 2+ beds) |
 | [YouTube Scraper](scrapers/youtube) | Search results and video stats: views, likes, comment count, duration, publish date, tags, description, channel | 16 search results; 5 with details + 1 video page |
+| [Career Site Jobs Scraper](scrapers/career-site-jobs) | Every open job on a Greenhouse, Lever or Ashby board: title, department, location, remote/hybrid, posted date, salary range, description | 530 jobs from 4 boards (Figma, Spotify, Ramp, Notion); salary on 374 |
+| [Craigslist Scraper](scrapers/craigslist) | Search results for any city and category: price, location, coordinates, photos, posted date, beds/sqft, odometer, job fields | 270 posts from 3 searches (Austin apartments, Seattle bikes, New York cars) |
+| [Google News Scraper](scrapers/google-news) | Keyword search: headline, publisher, publisher site, publish date, link, related coverage; time filters; past the 100-result cap | 150 articles for "nvidia" (last 7 days, 3 requests) |
 
-Not here yet: Airbnb, Google News, Medium. Their public tools do not yet return the raw page a structured parser needs from every network; they will be added when they do.
+Not here yet: Airbnb, Medium, Redfin. Their public tools do not yet return the raw page a structured parser needs from every network (Redfin refuses most non-US addresses); they will be added when they do.
 
-Each scraper also lives in its own repo, if you only need one: [amazon-scraper](https://github.com/unbrowse-ai/amazon-scraper) · [zillow-scraper](https://github.com/unbrowse-ai/zillow-scraper) · [youtube-scraper](https://github.com/unbrowse-ai/youtube-scraper).
+Each scraper also lives in its own repo, if you only need one: [amazon-scraper](https://github.com/unbrowse-ai/amazon-scraper) · [zillow-scraper](https://github.com/unbrowse-ai/zillow-scraper) · [youtube-scraper](https://github.com/unbrowse-ai/youtube-scraper) · [career-site-jobs-scraper](https://github.com/unbrowse-ai/career-site-jobs-scraper) · [craigslist-scraper](https://github.com/unbrowse-ai/craigslist-scraper) · [google-news-scraper](https://github.com/unbrowse-ai/google-news-scraper).
 
 ## Site API catalog
 
@@ -66,7 +72,7 @@ Or one site only: `https://unbrowse.ai/api/v1/sites/<host>/mcp` with an `Authori
 
 ## How it works
 
-Each scraper asks a public Unbrowse tool (for example `public.zillow_com.read_page`) which request to make, sends that request from your machine, and parses the raw response with its own tested parser (`parse.mjs`). If the site refuses your IP (captcha, 403, 429, bot page), the session is closed without reporting anything, so one blocked address never counts against a tool other people use. Details in [CONTRIBUTING.md](CONTRIBUTING.md).
+Each scraper asks a public Unbrowse tool (for example `public.zillow_com.read_page`, or a site's own JSON API such as Craigslist search) which request to make, sends that request from your machine, and parses the raw response with its own tested parser (`parse.mjs`). If the site refuses your IP (captcha, 403, 429, bot page), the session is closed without reporting anything, so one blocked address never counts against a tool other people use. Details in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ```
 lib/read-page.mjs        fetch one page through a public tool, from your IP; refusal handling
