@@ -1,13 +1,12 @@
 # Sites: L
 
-92 sites. Back to the [catalog](../README.md).
+93 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
 | [laksaboyforum.xyz](https://laksaboyforum.xyz) | 1 | Read a page on laksaboyforum.xyz | [OpenAPI](https://unbrowse.ai/api/v1/sites/laksaboyforum.xyz/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/laksaboyforum.xyz/mcp) |
 | [lanacion.com.ar](https://lanacion.com.ar) | 1 | Read a page on lanacion.com.ar | [OpenAPI](https://unbrowse.ai/api/v1/sites/lanacion.com.ar/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/lanacion.com.ar/mcp) |
 | [landtransportguru.net](https://landtransportguru.net) | 2 | Read a page on landtransportguru.net; Search landtransportguru.net | [OpenAPI](https://unbrowse.ai/api/v1/sites/landtransportguru.net/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/landtransportguru.net/mcp) |
-| [languagetool.org](https://languagetool.org) | 1 | Read a page on languagetool.org | [OpenAPI](https://unbrowse.ai/api/v1/sites/languagetool.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/languagetool.org/mcp) |
 | [latendo.com](https://latendo.com) | 1 | Read a page on latendo.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/latendo.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/latendo.com/mcp) |
 | [latimes.com](https://latimes.com) | 1 | Read a page on latimes.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/latimes.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/latimes.com/mcp) |
 | [launchdarkly.com](https://launchdarkly.com) | 1 | Read a page on launchdarkly.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/launchdarkly.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/launchdarkly.com/mcp) |
@@ -32,6 +31,7 @@
 | [letras.com](https://letras.com) | 1 | Read a page on letras.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/letras.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/letras.com/mcp) |
 | [letras.mus.br](https://letras.mus.br) | 1 | Read a page on letras.mus.br | [OpenAPI](https://unbrowse.ai/api/v1/sites/letras.mus.br/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/letras.mus.br/mcp) |
 | [letterboxd.com](https://letterboxd.com) | 2 | Search letterboxd.com; Read a page on letterboxd.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/letterboxd.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/letterboxd.com/mcp) |
+| [lever.co](https://lever.co) | 1 | Read a page on lever.co | [OpenAPI](https://unbrowse.ai/api/v1/sites/lever.co/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/lever.co/mcp) |
 | [lewdgames.to](https://lewdgames.to) | 2 | Read a page on lewdgames.to; Search lewdgames.to | [OpenAPI](https://unbrowse.ai/api/v1/sites/lewdgames.to/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/lewdgames.to/mcp) |
 | [lezhinus.com](https://lezhinus.com) | 1 | Read a page on lezhinus.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/lezhinus.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/lezhinus.com/mcp) |
 | [libguides.nus.edu.sg](https://libguides.nus.edu.sg) | 1 | Read a page on libguides.nus.edu.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/libguides.nus.edu.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/libguides.nus.edu.sg/mcp) |
@@ -46,7 +46,7 @@
 | [limetorrents.fun](https://limetorrents.fun) | 1 | Read a page on limetorrents.fun | [OpenAPI](https://unbrowse.ai/api/v1/sites/limetorrents.fun/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/limetorrents.fun/mcp) |
 | [limitlesstcg.com](https://limitlesstcg.com) | 1 | Read a page on limitlesstcg.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/limitlesstcg.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/limitlesstcg.com/mcp) |
 | [lingojam.com](https://lingojam.com) | 1 | Read a page on lingojam.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/lingojam.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/lingojam.com/mcp) |
-| [linkedin.com](https://linkedin.com) | 2 | Search jobs on LinkedIn; LinkedIn Jobs search (public, no login) | [OpenAPI](https://unbrowse.ai/api/v1/sites/linkedin.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/linkedin.com/mcp) |
+| [linkedin.com](https://linkedin.com) | 1 | Search jobs on LinkedIn | [OpenAPI](https://unbrowse.ai/api/v1/sites/linkedin.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/linkedin.com/mcp) |
 | [linkfire.com](https://linkfire.com) | 1 | Read a page on linkfire.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/linkfire.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/linkfire.com/mcp) |
 | [linkflare.io](https://linkflare.io) | 1 | Read upgrades on linkflare.io — Pricing - Linkflare | [OpenAPI](https://unbrowse.ai/api/v1/sites/linkflare.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/linkflare.io/mcp) |
 | [linktr.ee](https://linktr.ee) | 1 | Read a Linktree profile page | [OpenAPI](https://unbrowse.ai/api/v1/sites/linktr.ee/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/linktr.ee/mcp) |
@@ -81,6 +81,7 @@
 | [livescore.com](https://livescore.com) | 1 | Read a page on livescore.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/livescore.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/livescore.com/mcp) |
 | [livescore.cz](https://livescore.cz) | 1 | Read a page on livescore.cz | [OpenAPI](https://unbrowse.ai/api/v1/sites/livescore.cz/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/livescore.cz/mcp) |
 | [livescore.mobi](https://livescore.mobi) | 1 | Read a page on livescore.mobi | [OpenAPI](https://unbrowse.ai/api/v1/sites/livescore.mobi/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/livescore.mobi/mcp) |
+| [livesportmedia.eu](https://livesportmedia.eu) | 3 | View company overview; Read meta on livesportmedia.eu — Livesportmedia.com - advertise with global no. 1 \| Li… | [OpenAPI](https://unbrowse.ai/api/v1/sites/livesportmedia.eu/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/livesportmedia.eu/mcp) |
 | [lldev.thespacedevs.com](https://lldev.thespacedevs.com) | 1 | get upcoming space launches | [OpenAPI](https://unbrowse.ai/api/v1/sites/lldev.thespacedevs.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/lldev.thespacedevs.com/mcp) |
 | [lms.wizlearn.com](https://lms.wizlearn.com) | 1 | Read a page on lms.wizlearn.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/lms.wizlearn.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/lms.wizlearn.com/mcp) |
 | [lobste.rs](https://lobste.rs) | 1 | list stories with a tag | [OpenAPI](https://unbrowse.ai/api/v1/sites/lobste.rs/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/lobste.rs/mcp) |

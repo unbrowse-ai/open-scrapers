@@ -1,6 +1,6 @@
 # Sites: G
 
-95 sites. Back to the [catalog](../README.md).
+98 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -15,6 +15,7 @@
 | [gameinstaller.ru](https://gameinstaller.ru) | 3 | Open a game detail page on gameinstaller.ru; Read a page on gameinstaller.ru; Search games on gameinstaller.ru | [OpenAPI](https://unbrowse.ai/api/v1/sites/gameinstaller.ru/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gameinstaller.ru/mcp) |
 | [gamekillerapp.com](https://gamekillerapp.com) | 1 | Read a page on gamekillerapp.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/gamekillerapp.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gamekillerapp.com/mcp) |
 | [gameloft.com](https://gameloft.com) | 2 | Read gameloft country on www.gameloft.com — Bluey&#x27;s Happy Snaps; Read a page on gameloft.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/gameloft.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gameloft.com/mcp) |
+| [gamerant.com](https://gamerant.com) | 2 | Read a page on gamerant.com; Search GameRant | [OpenAPI](https://unbrowse.ai/api/v1/sites/gamerant.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gamerant.com/mcp) |
 | [gamersky.com](https://gamersky.com) | 1 | Read a page on gamersky.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/gamersky.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gamersky.com/mcp) |
 | [gamerxyt.com](https://gamerxyt.com) | 1 | Read a page on gamerxyt.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/gamerxyt.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gamerxyt.com/mcp) |
 | [gamespot.com](https://gamespot.com) | 1 | Read a page on gamespot.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/gamespot.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gamespot.com/mcp) |
@@ -44,7 +45,7 @@
 | [giantpanda.com](https://giantpanda.com) | 1 | Read GiANT Panda homepage | [OpenAPI](https://unbrowse.ai/api/v1/sites/giantpanda.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/giantpanda.com/mcp) |
 | [gimytv.biz](https://gimytv.biz) | 1 | Read a page on gimytv.biz | [OpenAPI](https://unbrowse.ai/api/v1/sites/gimytv.biz/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gimytv.biz/mcp) |
 | [git-scm.com](https://git-scm.com) | 1 | Read a page on git-scm.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/git-scm.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/git-scm.com/mcp) |
-| [gitea.com](https://gitea.com) | 3 | Search repositories on gitea.com; Read meta 7 b3 7 d on gitea.com — Gitea Official Website; Browse an organiz… | [OpenAPI](https://unbrowse.ai/api/v1/sites/gitea.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gitea.com/mcp) |
+| [gitea.com](https://gitea.com) | 3 | Search repositories on gitea.com; Read meta on gitea.com — Gitea Official Website; Browse an organization's r… | [OpenAPI](https://unbrowse.ai/api/v1/sites/gitea.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gitea.com/mcp) |
 | [gitee.com](https://gitee.com) | 1 | Read a page on gitee.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/gitee.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gitee.com/mcp) |
 | [github.blog](https://github.blog) | 2 | Search github.blog; Read a page on github.blog | [OpenAPI](https://unbrowse.ai/api/v1/sites/github.blog/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/github.blog/mcp) |
 | [github.com](https://github.com) | 1 | Read a page on github.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/github.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/github.com/mcp) |
@@ -54,6 +55,7 @@
 | [global6k.worldvision.org.sg](https://global6k.worldvision.org.sg) | 1 | Read a page on global6k.worldvision.org.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/global6k.worldvision.org.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/global6k.worldvision.org.sg/mcp) |
 | [gmarket.co.kr](https://gmarket.co.kr) | 3 | Read a page on signup-web.gmarket.co.kr; View best sellers on Gmarket; Read emartmall lnb on www.gmarket.co.k… | [OpenAPI](https://unbrowse.ai/api/v1/sites/gmarket.co.kr/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gmarket.co.kr/mcp) |
 | [gname.com](https://gname.com) | 1 | Read a page on gname.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/gname.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gname.com/mcp) |
+| [gnn.gamer.com.tw](https://gnn.gamer.com.tw) | 3 | Browse latest news; Read a news article | [OpenAPI](https://unbrowse.ai/api/v1/sites/gnn.gamer.com.tw/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gnn.gamer.com.tw/mcp) |
 | [gnome.org](https://gnome.org) | 1 | Open the latest GNOME release notes | [OpenAPI](https://unbrowse.ai/api/v1/sites/gnome.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gnome.org/mcp) |
 | [go-aheadsingapore.com](https://go-aheadsingapore.com) | 2 | Read a page on go-aheadsingapore.com; Search go-aheadsingapore.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/go-aheadsingapore.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/go-aheadsingapore.com/mcp) |
 | [go-manga.com](https://go-manga.com) | 1 | Read a page on go-manga.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/go-manga.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/go-manga.com/mcp) |
@@ -75,7 +77,7 @@
 | [goodsmile.com](https://goodsmile.com) | 1 | Read a page on goodsmile.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/goodsmile.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/goodsmile.com/mcp) |
 | [goodyfeed.com](https://goodyfeed.com) | 2 | Read a page on goodyfeed.com; Search goodyfeed.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/goodyfeed.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/goodyfeed.com/mcp) |
 | [google.ae](https://google.ae) | 1 | Read complete s on www.google.ae — Google Images | [OpenAPI](https://unbrowse.ai/api/v1/sites/google.ae/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/google.ae/mcp) |
-| [google.com](https://google.com) | 5 | Read homepage 7 b2 7 d on www.google.com — Google; Read search on www.google.com — https://www.google.com/sea… (+2 more) | [OpenAPI](https://unbrowse.ai/api/v1/sites/google.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/google.com/mcp) |
+| [google.com](https://google.com) | 9 | Read homepage on www.google.com — Google; Read search on www.google.com — https://www.google.com/search?q=bes… (+6 more) | [OpenAPI](https://unbrowse.ai/api/v1/sites/google.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/google.com/mcp) |
 | [google.com.au](https://google.com.au) | 2 | Web search results; Read complete s on www.google.com.au — Google Images | [OpenAPI](https://unbrowse.ai/api/v1/sites/google.com.au/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/google.com.au/mcp) |
 | [google.com.hk](https://google.com.hk) | 1 | Read a page on google.com.hk | [OpenAPI](https://unbrowse.ai/api/v1/sites/google.com.hk/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/google.com.hk/mcp) |
 | [google.com.tw](https://google.com.tw) | 1 | Read search on google.com.tw — 台積電 - Google 搜尋 | [OpenAPI](https://unbrowse.ai/api/v1/sites/google.com.tw/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/google.com.tw/mcp) |
@@ -95,6 +97,7 @@
 | [gqindia.com](https://gqindia.com) | 1 | Read a page on gqindia.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/gqindia.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gqindia.com/mcp) |
 | [granicus.com](https://granicus.com) | 1 | Read a page on granicus.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/granicus.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/granicus.com/mcp) |
 | [greatdeals.com.sg](https://greatdeals.com.sg) | 2 | Search greatdeals.com.sg; Read a page on greatdeals.com.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/greatdeals.com.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/greatdeals.com.sg/mcp) |
+| [greenhouse.com](https://greenhouse.com) | 2 | Read a page on greenhouse.com; Search greenhouse.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/greenhouse.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/greenhouse.com/mcp) |
 | [group.accor.com](https://group.accor.com) | 1 | Read a page on group.accor.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/group.accor.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/group.accor.com/mcp) |
 | [growthbook.io](https://growthbook.io) | 2 | Check GrowthBook pricing plans; Read a page on growthbook.io | [OpenAPI](https://unbrowse.ai/api/v1/sites/growthbook.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/growthbook.io/mcp) |
 | [gumtree.com](https://gumtree.com) | 1 | Read a page on gumtree.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/gumtree.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/gumtree.com/mcp) |

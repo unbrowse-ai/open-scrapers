@@ -1,6 +1,6 @@
 # Sites: M
 
-163 sites. Back to the [catalog](../README.md).
+159 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -50,9 +50,6 @@
 | [mangatown.com](https://mangatown.com) | 1 | Read a page on mangatown.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/mangatown.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/mangatown.com/mcp) |
 | [manhuaplus.org](https://manhuaplus.org) | 2 | Search manhuaplus.org; Read a page on manhuaplus.org | [OpenAPI](https://unbrowse.ai/api/v1/sites/manhuaplus.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/manhuaplus.org/mcp) |
 | [manoramaonline.com](https://manoramaonline.com) | 1 | Read a page on manoramaonline.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/manoramaonline.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/manoramaonline.com/mcp) |
-| [manualslib.com](https://manualslib.com) | 1 | Read a page on manualslib.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/manualslib.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/manualslib.com/mcp) |
-| [manulife.com.sg](https://manulife.com.sg) | 1 | Read a page on manulife.com.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/manulife.com.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/manulife.com.sg/mcp) |
-| [manutd.com](https://manutd.com) | 1 | Read a page on manutd.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/manutd.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/manutd.com/mcp) |
 | [mapbox.com](https://mapbox.com) | 1 | Read a page on mapbox.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/mapbox.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/mapbox.com/mcp) |
 | [mapgenie.io](https://mapgenie.io) | 1 | Read a page on mapgenie.io | [OpenAPI](https://unbrowse.ai/api/v1/sites/mapgenie.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/mapgenie.io/mcp) |
 | [maplesea.com](https://maplesea.com) | 1 | Read a page on maplesea.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/maplesea.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/maplesea.com/mcp) |
@@ -84,7 +81,7 @@
 | [mercadolibre.com.mx](https://mercadolibre.com.mx) | 1 | Read a page on mercadolibre.com.mx | [OpenAPI](https://unbrowse.ai/api/v1/sites/mercadolibre.com.mx/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/mercadolibre.com.mx/mcp) |
 | [merriam-webster.com](https://merriam-webster.com) | 1 | Read a page on merriam-webster.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/merriam-webster.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/merriam-webster.com/mcp) |
 | [mesrc.net](https://mesrc.net) | 1 | Read a page on mesrc.net | [OpenAPI](https://unbrowse.ai/api/v1/sites/mesrc.net/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/mesrc.net/mcp) |
-| [meteofrance.com](https://meteofrance.com) | 3 | Search for a city forecast; Get city weather forecast; Read article 7 b1 7 d on meteofrance.com — COMPRENDRE … | [OpenAPI](https://unbrowse.ai/api/v1/sites/meteofrance.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/meteofrance.com/mcp) |
+| [meteofrance.com](https://meteofrance.com) | 3 | Search for a city forecast; Get city weather forecast; Read article on meteofrance.com — COMPRENDRE LA METEO … | [OpenAPI](https://unbrowse.ai/api/v1/sites/meteofrance.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/meteofrance.com/mcp) |
 | [meteored.cl](https://meteored.cl) | 1 | Read a page on meteored.cl | [OpenAPI](https://unbrowse.ai/api/v1/sites/meteored.cl/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/meteored.cl/mcp) |
 | [meteored.com.ar](https://meteored.com.ar) | 1 | Read a page on meteored.com.ar | [OpenAPI](https://unbrowse.ai/api/v1/sites/meteored.com.ar/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/meteored.com.ar/mcp) |
 | [meteored.mx](https://meteored.mx) | 1 | Read a page on meteored.mx | [OpenAPI](https://unbrowse.ai/api/v1/sites/meteored.mx/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/meteored.mx/mcp) |
@@ -139,7 +136,6 @@
 | [mp4moviez5.com](https://mp4moviez5.com) | 1 | Read a page on mp4moviez5.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/mp4moviez5.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/mp4moviez5.com/mcp) |
 | [mparticle.com](https://mparticle.com) | 2 | Search the site; Read a page on mparticle.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/mparticle.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/mparticle.com/mcp) |
 | [ms.wikipedia.org](https://ms.wikipedia.org) | 1 | Read a page on ms.wikipedia.org | [OpenAPI](https://unbrowse.ai/api/v1/sites/ms.wikipedia.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/ms.wikipedia.org/mcp) |
-| [msdmanuals.com](https://msdmanuals.com) | 1 | Read a page on msdmanuals.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/msdmanuals.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/msdmanuals.com/mcp) |
 | [mspassport.playpark.com](https://mspassport.playpark.com) | 1 | Read a page on mspassport.playpark.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/mspassport.playpark.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/mspassport.playpark.com/mcp) |
 | [msu.edu](https://msu.edu) | 2 | Read a msu.edu page by username; Search MSU site | [OpenAPI](https://unbrowse.ai/api/v1/sites/msu.edu/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/msu.edu/mcp) |
 | [msu.ru](https://msu.ru) | 2 | Read menu on msu.ru — Схемы расположения зданий МГУ; Read news on msu.ru | [OpenAPI](https://unbrowse.ai/api/v1/sites/msu.ru/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/msu.ru/mcp) |

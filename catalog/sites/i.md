@@ -1,6 +1,6 @@
 # Sites: I
 
-100 sites. Back to the [catalog](../README.md).
+99 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -18,7 +18,6 @@
 | [igg-games.com](https://igg-games.com) | 1 | Read a page on igg-games.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/igg-games.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/igg-games.com/mcp) |
 | [iheart.com](https://iheart.com) | 1 | Read a page on iheart.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/iheart.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/iheart.com/mcp) |
 | [iionads.com](https://iionads.com) | 1 | Read a page on iionads.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/iionads.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/iionads.com/mcp) |
-| [ij.manual.canon](https://ij.manual.canon) | 1 | Read a page on ij.manual.canon | [OpenAPI](https://unbrowse.ai/api/v1/sites/ij.manual.canon/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/ij.manual.canon/mcp) |
 | [ijavhd.com](https://ijavhd.com) | 1 | Open a video detail page on iJAVHD | [OpenAPI](https://unbrowse.ai/api/v1/sites/ijavhd.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/ijavhd.com/mcp) |
 | [ijavtorrent.com](https://ijavtorrent.com) | 2 | Search ijavtorrent.com; Read a page on ijavtorrent.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/ijavtorrent.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/ijavtorrent.com/mcp) |
 | [ildolomiti.it](https://ildolomiti.it) | 1 | Read a page on ildolomiti.it | [OpenAPI](https://unbrowse.ai/api/v1/sites/ildolomiti.it/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/ildolomiti.it/mcp) |

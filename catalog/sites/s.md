@@ -1,6 +1,6 @@
 # Sites: S
 
-216 sites. Back to the [catalog](../README.md).
+218 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -8,12 +8,14 @@
 | [sagaquiz.com](https://sagaquiz.com) | 1 | Read a page on sagaquiz.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/sagaquiz.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sagaquiz.com/mcp) |
 | [salesforce.com](https://salesforce.com) | 1 | Read a page on salesforce.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/salesforce.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/salesforce.com/mcp) |
 | [sallysbakingaddiction.com](https://sallysbakingaddiction.com) | 2 | Read a page on sallysbakingaddiction.com; Search sallysbakingaddiction.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/sallysbakingaddiction.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sallysbakingaddiction.com/mcp) |
+| [samarth.edu.in](https://samarth.edu.in) | 1 | Read a page on samarth.edu.in | [OpenAPI](https://unbrowse.ai/api/v1/sites/samarth.edu.in/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/samarth.edu.in/mcp) |
 | [samplicio.us](https://samplicio.us) | 1 | Read a samplicio.us page by query | [OpenAPI](https://unbrowse.ai/api/v1/sites/samplicio.us/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/samplicio.us/mcp) |
 | [samsung.com](https://samsung.com) | 2 | Read a page on samsung.com; Browse Samsung smartphones category | [OpenAPI](https://unbrowse.ai/api/v1/sites/samsung.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/samsung.com/mcp) |
 | [samsunghealth.com](https://samsunghealth.com) | 1 | Read a page on samsunghealth.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/samsunghealth.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/samsunghealth.com/mcp) |
 | [samsungknox.com](https://samsungknox.com) | 2 | Search blog posts by keyword; Open a blog post | [OpenAPI](https://unbrowse.ai/api/v1/sites/samsungknox.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/samsungknox.com/mcp) |
 | [samusar.com](https://samusar.com) | 1 | Read a page on samusar.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/samusar.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/samusar.com/mcp) |
 | [sandiegouniontribune.com](https://sandiegouniontribune.com) | 2 | Search sandiegouniontribune.com; Read a page on sandiegouniontribune.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/sandiegouniontribune.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sandiegouniontribune.com/mcp) |
+| [sapi.craigslist.org](https://sapi.craigslist.org) | 1 | Craigslist search: posts in a city and category | [OpenAPI](https://unbrowse.ai/api/v1/sites/sapi.craigslist.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sapi.craigslist.org/mcp) |
 | [satta-king-fast.com](https://satta-king-fast.com) | 1 | Read a page on satta-king-fast.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/satta-king-fast.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/satta-king-fast.com/mcp) |
 | [sattamatkano1.me](https://sattamatkano1.me) | 1 | Read a page on sattamatkano1.me | [OpenAPI](https://unbrowse.ai/api/v1/sites/sattamatkano1.me/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sattamatkano1.me/mcp) |
 | [savemyexams.com](https://savemyexams.com) | 1 | Read a page on savemyexams.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/savemyexams.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/savemyexams.com/mcp) |
@@ -111,6 +113,7 @@
 | [singsaver.com.sg](https://singsaver.com.sg) | 1 | Read a page on singsaver.com.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/singsaver.com.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/singsaver.com.sg/mcp) |
 | [singular.net](https://singular.net) | 1 | Read a page on singular.net | [OpenAPI](https://unbrowse.ai/api/v1/sites/singular.net/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/singular.net/mcp) |
 | [sinodefenceforum.com](https://sinodefenceforum.com) | 1 | Read a page on sinodefenceforum.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/sinodefenceforum.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sinodefenceforum.com/mcp) |
+| [sitemaps.org](https://sitemaps.org) | 1 | Read the Sitemaps protocol specification | [OpenAPI](https://unbrowse.ai/api/v1/sites/sitemaps.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sitemaps.org/mcp) |
 | [sjtu.edu.cn](https://sjtu.edu.cn) | 1 | Browse notices listing | [OpenAPI](https://unbrowse.ai/api/v1/sites/sjtu.edu.cn/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sjtu.edu.cn/mcp) |
 | [skillsfuture.gobusiness.gov.sg](https://skillsfuture.gobusiness.gov.sg) | 1 | Read a page on skillsfuture.gobusiness.gov.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/skillsfuture.gobusiness.gov.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/skillsfuture.gobusiness.gov.sg/mcp) |
 | [skscitymalljbcc.com](https://skscitymalljbcc.com) | 1 | Read a page on skscitymalljbcc.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/skscitymalljbcc.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/skscitymalljbcc.com/mcp) |
@@ -148,7 +151,6 @@
 | [sport-express.ru](https://sport-express.ru) | 1 | Read a page on sport-express.ru | [OpenAPI](https://unbrowse.ai/api/v1/sites/sport-express.ru/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sport-express.ru/mcp) |
 | [sport-fm.gr](https://sport-fm.gr) | 1 | Read a page on sport-fm.gr | [OpenAPI](https://unbrowse.ai/api/v1/sites/sport-fm.gr/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sport-fm.gr/mcp) |
 | [sport.de](https://sport.de) | 1 | Read a page on sport.de | [OpenAPI](https://unbrowse.ai/api/v1/sites/sport.de/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sport.de/mcp) |
-| [sport.orf.at](https://sport.orf.at) | 1 | Browse sport news section on orf.at | [OpenAPI](https://unbrowse.ai/api/v1/sites/sport.orf.at/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sport.orf.at/mcp) |
 | [sport1.de](https://sport1.de) | 2 | Search sport1.de; Read a page on sport1.de | [OpenAPI](https://unbrowse.ai/api/v1/sites/sport1.de/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sport1.de/mcp) |
 | [sportal.bg](https://sportal.bg) | 1 | Read a page on sportal.bg | [OpenAPI](https://unbrowse.ai/api/v1/sites/sportal.bg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sportal.bg/mcp) |
 | [sportinglife.com](https://sportinglife.com) | 1 | Read a page on sportinglife.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/sportinglife.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sportinglife.com/mcp) |
@@ -202,7 +204,6 @@
 | [streamrecorder.io](https://streamrecorder.io) | 1 | Read a page on streamrecorder.io | [OpenAPI](https://unbrowse.ai/api/v1/sites/streamrecorder.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/streamrecorder.io/mcp) |
 | [streetdirectory.com](https://streetdirectory.com) | 2 | Search streetdirectory.com; Read a page on streetdirectory.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/streetdirectory.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/streetdirectory.com/mcp) |
 | [studieren.univie.ac.at](https://studieren.univie.ac.at) | 1 | Browse University of Vienna bachelor and diploma study programmes | [OpenAPI](https://unbrowse.ai/api/v1/sites/studieren.univie.ac.at/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/studieren.univie.ac.at/mcp) |
-| [study.anu.edu.au](https://study.anu.edu.au) | 1 | Read a page on study.anu.edu.au | [OpenAPI](https://unbrowse.ai/api/v1/sites/study.anu.edu.au/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/study.anu.edu.au/mcp) |
 | [study.unimelb.edu.au](https://study.unimelb.edu.au) | 1 | Read a study.unimelb.edu.au page by query | [OpenAPI](https://unbrowse.ai/api/v1/sites/study.unimelb.edu.au/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/study.unimelb.edu.au/mcp) |
 | [sudinfo.be](https://sudinfo.be) | 1 | Read a page on sudinfo.be | [OpenAPI](https://unbrowse.ai/api/v1/sites/sudinfo.be/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sudinfo.be/mcp) |
 | [sukebei.nyaa.si](https://sukebei.nyaa.si) | 1 | Read a page on sukebei.nyaa.si | [OpenAPI](https://unbrowse.ai/api/v1/sites/sukebei.nyaa.si/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sukebei.nyaa.si/mcp) |
@@ -210,13 +211,14 @@
 | [summonersky.com](https://summonersky.com) | 1 | Read a page on summonersky.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/summonersky.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/summonersky.com/mcp) |
 | [sunat.gob.pe](https://sunat.gob.pe) | 1 | Read a page on sunat.gob.pe | [OpenAPI](https://unbrowse.ai/api/v1/sites/sunat.gob.pe/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sunat.gob.pe/mcp) |
 | [suntecsingapore.com](https://suntecsingapore.com) | 1 | Read a page on suntecsingapore.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/suntecsingapore.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/suntecsingapore.com/mcp) |
-| [supabase.com](https://supabase.com) | 4 | Browse the Supabase blog; Read 7 b2 7 d 7 b3 7 d on supabase.com — Supabase Blog: the Postgres development pl… (+1 more) | [OpenAPI](https://unbrowse.ai/api/v1/sites/supabase.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/supabase.com/mcp) |
+| [supabase.com](https://supabase.com) | 4 | Browse the Supabase blog; Read on supabase.com — Supabase Blog: the Postgres development platform; Open a blo… (+1 more) | [OpenAPI](https://unbrowse.ai/api/v1/sites/supabase.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/supabase.com/mcp) |
 | [superbthemes.com](https://superbthemes.com) | 1 | Read a page on superbthemes.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/superbthemes.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/superbthemes.com/mcp) |
 | [superdelivery.com](https://superdelivery.com) | 1 | Read a page on superdelivery.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/superdelivery.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/superdelivery.com/mcp) |
 | [superstarteacher.com.sg](https://superstarteacher.com.sg) | 1 | Read a page on superstarteacher.com.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/superstarteacher.com.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/superstarteacher.com.sg/mcp) |
 | [support.microsoft.com](https://support.microsoft.com) | 1 | Read a page on support.microsoft.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/support.microsoft.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/support.microsoft.com/mcp) |
 | [supremecourt.gov](https://supremecourt.gov) | 1 | Read a page on supremecourt.gov | [OpenAPI](https://unbrowse.ai/api/v1/sites/supremecourt.gov/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/supremecourt.gov/mcp) |
 | [sweb.ru](https://sweb.ru) | 1 | Read a page on sweb.ru | [OpenAPI](https://unbrowse.ai/api/v1/sites/sweb.ru/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/sweb.ru/mcp) |
+| [swiggy.com](https://swiggy.com) | 1 | Read restaurants list on www.swiggy.com — Order Food Online from India&#39;s Best Food Delivery Service \| Swi… | [OpenAPI](https://unbrowse.ai/api/v1/sites/swiggy.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/swiggy.com/mcp) |
 | [swissinfo.ch](https://swissinfo.ch) | 2 | Read a page on swissinfo.ch; Search swissinfo.ch | [OpenAPI](https://unbrowse.ai/api/v1/sites/swissinfo.ch/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/swissinfo.ch/mcp) |
 | [syariahcourt.gov.sg](https://syariahcourt.gov.sg) | 1 | Read a page on syariahcourt.gov.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/syariahcourt.gov.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/syariahcourt.gov.sg/mcp) |
 | [syncthing.net](https://syncthing.net) | 1 | View platform download options | [OpenAPI](https://unbrowse.ai/api/v1/sites/syncthing.net/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/syncthing.net/mcp) |

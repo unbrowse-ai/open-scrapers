@@ -1,6 +1,6 @@
 # Sites: W
 
-120 sites. Back to the [catalog](../README.md).
+119 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -53,8 +53,7 @@
 | [webull.com.sg](https://webull.com.sg) | 1 | Read a page on webull.com.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/webull.com.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/webull.com.sg/mcp) |
 | [webuytravel.sg](https://webuytravel.sg) | 1 | Read a page on webuytravel.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/webuytravel.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/webuytravel.sg/mcp) |
 | [wenxuecity.com](https://wenxuecity.com) | 1 | Read a page on wenxuecity.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/wenxuecity.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/wenxuecity.com/mcp) |
-| [westernunion.com](https://westernunion.com) | 1 | Read a page on westernunion.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/westernunion.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/westernunion.com/mcp) |
-| [wetter.orf.at](https://wetter.orf.at) | 1 | Browse Austria weather forecasts | [OpenAPI](https://unbrowse.ai/api/v1/sites/wetter.orf.at/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/wetter.orf.at/mcp) |
+| [westernunion.com](https://westernunion.com) | 2 | Read a page on westernunion.com; Check exchange rate and convert currency | [OpenAPI](https://unbrowse.ai/api/v1/sites/westernunion.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/westernunion.com/mcp) |
 | [whaletv.com](https://whaletv.com) | 1 | Read a page on whaletv.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/whaletv.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/whaletv.com/mcp) |
 | [whatsapp.com](https://whatsapp.com) | 1 | Browse WhatsApp feature pages | [OpenAPI](https://unbrowse.ai/api/v1/sites/whatsapp.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/whatsapp.com/mcp) |
 | [whatsappbusiness.com](https://whatsappbusiness.com) | 1 | Read a page on whatsappbusiness.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/whatsappbusiness.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/whatsappbusiness.com/mcp) |

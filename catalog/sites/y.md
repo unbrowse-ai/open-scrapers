@@ -14,6 +14,6 @@
 | [yonex.com](https://yonex.com) | 1 | Read a page on yonex.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/yonex.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/yonex.com/mcp) |
 | [yoomoney.ru](https://yoomoney.ru) | 1 | Read a page on yoomoney.ru | [OpenAPI](https://unbrowse.ai/api/v1/sites/yoomoney.ru/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/yoomoney.ru/mcp) |
 | [youappi.com](https://youappi.com) | 1 | Read a page on youappi.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/youappi.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/youappi.com/mcp) |
-| [yougov.com](https://yougov.com) | 1 | Read a page on yougov.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/yougov.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/yougov.com/mcp) |
+| [yougov.com](https://yougov.com) | 2 | Search opinion data; Read a page on yougov.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/yougov.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/yougov.com/mcp) |
 | [youronlinechoices.com](https://youronlinechoices.com) | 1 | Read a page on youronlinechoices.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/youronlinechoices.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/youronlinechoices.com/mcp) |
 | [yoyomanga.com](https://yoyomanga.com) | 1 | Read a page on yoyomanga.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/yoyomanga.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/yoyomanga.com/mcp) |

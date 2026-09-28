@@ -37,7 +37,7 @@
 | [news.com.au](https://news.com.au) | 3 | Browse a news section; Search news | [OpenAPI](https://unbrowse.ai/api/v1/sites/news.com.au/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news.com.au/mcp) |
 | [news.cornell.edu](https://news.cornell.edu) | 1 | Search Cornell Chronicle news | [OpenAPI](https://unbrowse.ai/api/v1/sites/news.cornell.edu/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news.cornell.edu/mcp) |
 | [news.gatech.edu](https://news.gatech.edu) | 1 | Browse news categories and open a news article | [OpenAPI](https://unbrowse.ai/api/v1/sites/news.gatech.edu/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news.gatech.edu/mcp) |
-| [news.google.com](https://news.google.com) | 1 | Search Google News for a topic | [OpenAPI](https://unbrowse.ai/api/v1/sites/news.google.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news.google.com/mcp) |
+| [news.google.com](https://news.google.com) | 2 | Search Google News for a topic; Google News search (RSS) | [OpenAPI](https://unbrowse.ai/api/v1/sites/news.google.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news.google.com/mcp) |
 | [news.harman.com](https://news.harman.com) | 1 | Browse news by category | [OpenAPI](https://unbrowse.ai/api/v1/sites/news.harman.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news.harman.com/mcp) |
 | [news.livedoor.com](https://news.livedoor.com) | 2 | Read a page on news.livedoor.com; Search livedoor news articles by keyword | [OpenAPI](https://unbrowse.ai/api/v1/sites/news.livedoor.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news.livedoor.com/mcp) |
 | [news.mail.ru](https://news.mail.ru) | 1 | Browse news by category on news.mail.ru | [OpenAPI](https://unbrowse.ai/api/v1/sites/news.mail.ru/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news.mail.ru/mcp) |
@@ -55,7 +55,6 @@
 | [news.ycombinator.com](https://news.ycombinator.com) | 2 | Read a page on news.ycombinator.com; Read a Hacker News item by id | [OpenAPI](https://unbrowse.ai/api/v1/sites/news.ycombinator.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news.ycombinator.com/mcp) |
 | [news.zhibo8.com](https://news.zhibo8.com) | 1 | Read a page on news.zhibo8.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/news.zhibo8.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news.zhibo8.com/mcp) |
 | [news18.com](https://news18.com) | 2 | Browse a News18 news category | [OpenAPI](https://unbrowse.ai/api/v1/sites/news18.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/news18.com/mcp) |
-| [newsbreak.com](https://newsbreak.com) | 1 | Read a page on newsbreak.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/newsbreak.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/newsbreak.com/mcp) |
 | [newssearch.chinadaily.com.cn](https://newssearch.chinadaily.com.cn) | 1 | Search articles by keyword | [OpenAPI](https://unbrowse.ai/api/v1/sites/newssearch.chinadaily.com.cn/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/newssearch.chinadaily.com.cn/mcp) |
 | [newsweek.com](https://newsweek.com) | 2 | Browse a Newsweek World news category; Read a page on newsweek.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/newsweek.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/newsweek.com/mcp) |
 | [nex.com.sg](https://nex.com.sg) | 1 | Read a page on nex.com.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/nex.com.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/nex.com.sg/mcp) |
@@ -73,6 +72,7 @@
 | [nic.cz](https://nic.cz) | 2 | Read a page on nic.cz; Search nic.cz | [OpenAPI](https://unbrowse.ai/api/v1/sites/nic.cz/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/nic.cz/mcp) |
 | [nic.do](https://nic.do) | 1 | Read a nic.do page by name | [OpenAPI](https://unbrowse.ai/api/v1/sites/nic.do/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/nic.do/mcp) |
 | [nic.eu.cc](https://nic.eu.cc) | 2 | Check domain availability on eu.cc; Perform Whois lookup on eu.cc | [OpenAPI](https://unbrowse.ai/api/v1/sites/nic.eu.cc/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/nic.eu.cc/mcp) |
+| [nic.eu.org](https://nic.eu.org) | 1 | List domains open for registration | [OpenAPI](https://unbrowse.ai/api/v1/sites/nic.eu.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/nic.eu.org/mcp) |
 | [nice.com](https://nice.com) | 1 | Read a page on nice.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/nice.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/nice.com/mcp) |
 | [nice.org.uk](https://nice.org.uk) | 1 | Read a page on nice.org.uk | [OpenAPI](https://unbrowse.ai/api/v1/sites/nice.org.uk/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/nice.org.uk/mcp) |
 | [nicematin.com](https://nicematin.com) | 1 | Read a page on nicematin.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/nicematin.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/nicematin.com/mcp) |

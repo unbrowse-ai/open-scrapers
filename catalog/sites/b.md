@@ -1,6 +1,6 @@
 # Sites: B
 
-111 sites. Back to the [catalog](../README.md).
+112 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -52,11 +52,12 @@
 | [bkcoupons.sg](https://bkcoupons.sg) | 1 | Read a page on bkcoupons.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/bkcoupons.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/bkcoupons.sg/mcp) |
 | [blackmagicdesign.com](https://blackmagicdesign.com) | 1 | Read a page on blackmagicdesign.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/blackmagicdesign.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/blackmagicdesign.com/mcp) |
 | [blackrussia.online](https://blackrussia.online) | 3 | Read a page on blackrussia.online; Read gameservers on blackrussia.online — Check your browser...; Browse for… | [OpenAPI](https://unbrowse.ai/api/v1/sites/blackrussia.online/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/blackrussia.online/mcp) |
+| [blastapi.io](https://blastapi.io) | 1 | Read Blast deprecation notice and migration links | [OpenAPI](https://unbrowse.ai/api/v1/sites/blastapi.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/blastapi.io/mcp) |
 | [bldramaturkey.co](https://bldramaturkey.co) | 1 | Read a page on bldramaturkey.co | [OpenAPI](https://unbrowse.ai/api/v1/sites/bldramaturkey.co/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/bldramaturkey.co/mcp) |
 | [bleepingcomputer.com](https://bleepingcomputer.com) | 1 | Read a page on bleepingcomputer.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/bleepingcomputer.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/bleepingcomputer.com/mcp) |
 | [blizzard.com](https://blizzard.com) | 1 | Read en us nav on blizzard.com — Blizzard Entertainment | [OpenAPI](https://unbrowse.ai/api/v1/sites/blizzard.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/blizzard.com/mcp) |
 | [blog.band.us](https://blog.band.us) | 1 | Read a page on blog.band.us | [OpenAPI](https://unbrowse.ai/api/v1/sites/blog.band.us/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/blog.band.us/mcp) |
-| [blog.barracuda.com](https://blog.barracuda.com) | 1 | Read 7 b9 7 d blog list list json on blog.barracuda.com — Sharp insights on cybersecurity \| Barracuda Network… | [OpenAPI](https://unbrowse.ai/api/v1/sites/blog.barracuda.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/blog.barracuda.com/mcp) |
+| [blog.barracuda.com](https://blog.barracuda.com) | 1 | Read blog list list json on blog.barracuda.com — Sharp insights on cybersecurity \| Barracuda Networks Blog | [OpenAPI](https://unbrowse.ai/api/v1/sites/blog.barracuda.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/blog.barracuda.com/mcp) |
 | [blog.base.org](https://blog.base.org) | 1 | Read a page on blog.base.org | [OpenAPI](https://unbrowse.ai/api/v1/sites/blog.base.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/blog.base.org/mcp) |
 | [blog.bitdrift.io](https://blog.bitdrift.io) | 3 | Browse blog and read a post on bitdrift | [OpenAPI](https://unbrowse.ai/api/v1/sites/blog.bitdrift.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/blog.bitdrift.io/mcp) |
 | [blog.cadent.com](https://blog.cadent.com) | 1 | Browse latest resources | [OpenAPI](https://unbrowse.ai/api/v1/sites/blog.cadent.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/blog.cadent.com/mcp) |
@@ -70,7 +71,7 @@
 | [bluehost.com](https://bluehost.com) | 1 | Read a page on bluehost.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/bluehost.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/bluehost.com/mcp) |
 | [bmwgroup.com](https://bmwgroup.com) | 1 | Read a page on bmwgroup.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/bmwgroup.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/bmwgroup.com/mcp) |
 | [bn.wikipedia.org](https://bn.wikipedia.org) | 1 | Read a page on bn.wikipedia.org | [OpenAPI](https://unbrowse.ai/api/v1/sites/bn.wikipedia.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/bn.wikipedia.org/mcp) |
-| [boardgamegeek.com](https://boardgamegeek.com) | 1 | Read a page on boardgamegeek.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/boardgamegeek.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/boardgamegeek.com/mcp) |
+| [boards-api.greenhouse.io](https://boards-api.greenhouse.io) | 1 | Greenhouse job board: open jobs | [OpenAPI](https://unbrowse.ai/api/v1/sites/boards-api.greenhouse.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/boards-api.greenhouse.io/mcp) |
 | [bokepboz.tv](https://bokepboz.tv) | 1 | Read a page on bokepboz.tv | [OpenAPI](https://unbrowse.ai/api/v1/sites/bokepboz.tv/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/bokepboz.tv/mcp) |
 | [bokepcluk.com](https://bokepcluk.com) | 2 | Read a page on bokepcluk.com; Search bokepcluk.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/bokepcluk.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/bokepcluk.com/mcp) |
 | [bokepcrot.gives](https://bokepcrot.gives) | 2 | Read a page on bokepcrot.gives; Search bokepcrot.gives | [OpenAPI](https://unbrowse.ai/api/v1/sites/bokepcrot.gives/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/bokepcrot.gives/mcp) |
@@ -96,7 +97,7 @@
 | [boylove.cc](https://boylove.cc) | 1 | Read a page on boylove.cc | [OpenAPI](https://unbrowse.ai/api/v1/sites/boylove.cc/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/boylove.cc/mcp) |
 | [breitbart.com](https://breitbart.com) | 1 | Read a page on breitbart.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/breitbart.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/breitbart.com/mcp) |
 | [brightcove.com](https://brightcove.com) | 1 | Read a page on brightcove.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/brightcove.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/brightcove.com/mcp) |
-| [britishairways.com](https://britishairways.com) | 2 | Read english consent 7 b5 7 d on www.britishairways.com; Read locations all on www.britishairways.com — Briti… | [OpenAPI](https://unbrowse.ai/api/v1/sites/britishairways.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/britishairways.com/mcp) |
+| [britishairways.com](https://britishairways.com) | 2 | Read english consent on www.britishairways.com; Read locations all on www.britishairways.com — British Airway… | [OpenAPI](https://unbrowse.ai/api/v1/sites/britishairways.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/britishairways.com/mcp) |
 | [brother-usa.com](https://brother-usa.com) | 1 | Read a page on brother-usa.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/brother-usa.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/brother-usa.com/mcp) |
 | [bsclink.cn](https://bsclink.cn) | 1 | Read SASE product overview on Baishan Cloud | [OpenAPI](https://unbrowse.ai/api/v1/sites/bsclink.cn/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/bsclink.cn/mcp) |
 | [buffer.com](https://buffer.com) | 7 | Read a Buffer blog article; Read author kirsti on buffer.com — Buffer Blog - Thoughts on Social Media &amp; O… (+3 more) | [OpenAPI](https://unbrowse.ai/api/v1/sites/buffer.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/buffer.com/mcp) |

@@ -1,6 +1,6 @@
 # Sites: C
 
-191 sites. Back to the [catalog](../README.md).
+190 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -56,7 +56,7 @@
 | [cern.ch](https://cern.ch) | 1 | Search CERN and open a news article | [OpenAPI](https://unbrowse.ai/api/v1/sites/cern.ch/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/cern.ch/mcp) |
 | [changiairport.com](https://changiairport.com) | 4 | Create search all on www.changiairport.com — Changi Airport Departures: Live Flight Status; Search changiairp… (+1 more) | [OpenAPI](https://unbrowse.ai/api/v1/sites/changiairport.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/changiairport.com/mcp) |
 | [changirecommends.com](https://changirecommends.com) | 1 | Read a page on changirecommends.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/changirecommends.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/changirecommends.com/mcp) |
-| [channelnewsasia.com](https://channelnewsasia.com) | 2 | Read breaking news 7 b3 7 d on www.channelnewsasia.com — Breaking News and Analysis on Asia and the World \| R… | [OpenAPI](https://unbrowse.ai/api/v1/sites/channelnewsasia.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/channelnewsasia.com/mcp) |
+| [channelnewsasia.com](https://channelnewsasia.com) | 2 | Read breaking news on www.channelnewsasia.com — Breaking News and Analysis on Asia and the World \| Real-Time … | [OpenAPI](https://unbrowse.ai/api/v1/sites/channelnewsasia.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/channelnewsasia.com/mcp) |
 | [chartbeat.com](https://chartbeat.com) | 1 | Read a page on chartbeat.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/chartbeat.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/chartbeat.com/mcp) |
 | [chase.com](https://chase.com) | 1 | Browse all Chase credit cards | [OpenAPI](https://unbrowse.ai/api/v1/sites/chase.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/chase.com/mcp) |
 | [chatgpt.com](https://chatgpt.com) | 3 | Read gizmos discovery anon on chatgpt.com — Explore GPTs; Chat with ChatGPT; Browse ChatGPT image templates | [OpenAPI](https://unbrowse.ai/api/v1/sites/chatgpt.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/chatgpt.com/mcp) |
@@ -159,14 +159,13 @@
 | [corp.world.co.jp](https://corp.world.co.jp) | 1 | Read a page on corp.world.co.jp | [OpenAPI](https://unbrowse.ai/api/v1/sites/corp.world.co.jp/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/corp.world.co.jp/mcp) |
 | [corporate.shengsiong.com.sg](https://corporate.shengsiong.com.sg) | 1 | Read a page on corporate.shengsiong.com.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/corporate.shengsiong.com.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/corporate.shengsiong.com.sg/mcp) |
 | [cosplaytele.com](https://cosplaytele.com) | 1 | Read a page on cosplaytele.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/cosplaytele.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/cosplaytele.com/mcp) |
-| [countryliving.com](https://countryliving.com) | 2 | Search countryliving.com; Read a page on countryliving.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/countryliving.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/countryliving.com/mcp) |
 | [coursehero.com](https://coursehero.com) | 1 | Read a page on coursehero.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/coursehero.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/coursehero.com/mcp) |
 | [coursera.org](https://coursera.org) | 2 | Search coursera.org; Read a page on coursera.org | [OpenAPI](https://unbrowse.ai/api/v1/sites/coursera.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/coursera.org/mcp) |
 | [courses.myskillsfuture.gov.sg](https://courses.myskillsfuture.gov.sg) | 1 | Read a page on courses.myskillsfuture.gov.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/courses.myskillsfuture.gov.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/courses.myskillsfuture.gov.sg/mcp) |
-| [courtlistener.com](https://courtlistener.com) | 1 | Read 7 b1 7 d epic games inc v apple inc on www.courtlistener.com — Epic Games, Inc. v. Apple Inc., 4:20-cv-0… | [OpenAPI](https://unbrowse.ai/api/v1/sites/courtlistener.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/courtlistener.com/mcp) |
+| [courtlistener.com](https://courtlistener.com) | 1 | Read epic games inc v apple inc on www.courtlistener.com — Epic Games, Inc. v. Apple Inc., 4:20-cv-05640 – Co… | [OpenAPI](https://unbrowse.ai/api/v1/sites/courtlistener.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/courtlistener.com/mcp) |
 | [courts.com.sg](https://courts.com.sg) | 1 | Read a page on courts.com.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/courts.com.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/courts.com.sg/mcp) |
 | [cove.sg](https://cove.sg) | 1 | Read a page on cove.sg | [OpenAPI](https://unbrowse.ai/api/v1/sites/cove.sg/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/cove.sg/mcp) |
-| [coveo.com](https://coveo.com) | 3 | Browse Coveo blog category; Read cv menus 7 b6 7 d on www.coveo.com — Blog - Coveo; Read a page on coveo.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/coveo.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/coveo.com/mcp) |
+| [coveo.com](https://coveo.com) | 3 | Browse Coveo blog category; Read cv menus on www.coveo.com — Blog - Coveo; Read a page on coveo.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/coveo.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/coveo.com/mcp) |
 | [coxautoinc.com](https://coxautoinc.com) | 1 | Read a page on coxautoinc.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/coxautoinc.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/coxautoinc.com/mcp) |
 | [cp.betweendigital.com](https://cp.betweendigital.com) | 1 | Read cform settings on cp.betweendigital.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/cp.betweendigital.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/cp.betweendigital.com/mcp) |
 | [crash.net](https://crash.net) | 1 | Read a page on crash.net | [OpenAPI](https://unbrowse.ai/api/v1/sites/crash.net/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/crash.net/mcp) |

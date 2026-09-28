@@ -1,6 +1,6 @@
 # Sites: R
 
-84 sites. Back to the [catalog](../README.md).
+85 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -8,7 +8,7 @@
 | [rackspace.com](https://rackspace.com) | 1 | Read a page on rackspace.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/rackspace.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/rackspace.com/mcp) |
 | [radio-singapore.com](https://radio-singapore.com) | 1 | Read a page on radio-singapore.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/radio-singapore.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/radio-singapore.com/mcp) |
 | [radiofarda.com](https://radiofarda.com) | 1 | Read a page on radiofarda.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/radiofarda.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/radiofarda.com/mcp) |
-| [radiofrance.fr](https://radiofrance.fr) | 5 | Search Radio France; Open a podcast page; Read a page on radiofrance.fr (+1 more) | [OpenAPI](https://unbrowse.ai/api/v1/sites/radiofrance.fr/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/radiofrance.fr/mcp) |
+| [radiofrance.fr](https://radiofrance.fr) | 6 | Read data json on www.radiofrance.fr; Search Radio France; Open a podcast page (+3 more) | [OpenAPI](https://unbrowse.ai/api/v1/sites/radiofrance.fr/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/radiofrance.fr/mcp) |
 | [radioonline.my](https://radioonline.my) | 1 | Read a page on radioonline.my | [OpenAPI](https://unbrowse.ai/api/v1/sites/radioonline.my/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/radioonline.my/mcp) |
 | [radiosingapore.org](https://radiosingapore.org) | 1 | Read a page on radiosingapore.org | [OpenAPI](https://unbrowse.ai/api/v1/sites/radiosingapore.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/radiosingapore.org/mcp) |
 | [raffleshealth.com](https://raffleshealth.com) | 1 | Read a page on raffleshealth.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/raffleshealth.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/raffleshealth.com/mcp) |
@@ -35,7 +35,8 @@
 | [redbubble.com](https://redbubble.com) | 1 | Search products | [OpenAPI](https://unbrowse.ai/api/v1/sites/redbubble.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/redbubble.com/mcp) |
 | [redbull.com](https://redbull.com) | 2 | Browse Red Bull energy drinks and open a product page; Read a page on redbull.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/redbull.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/redbull.com/mcp) |
 | [redbus.in](https://redbus.in) | 1 | Read rpw city suggestion on www.redbus.in — Bus Booking Online and Train Tickets at Lowest Price - redBus | [OpenAPI](https://unbrowse.ai/api/v1/sites/redbus.in/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/redbus.in/mcp) |
-| [redcross.org](https://redcross.org) | 2 | Read bin 7 b1 7 d on www.redcross.org — 404 Error; Find a blood appointment by zip code | [OpenAPI](https://unbrowse.ai/api/v1/sites/redcross.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/redcross.org/mcp) |
+| [redcross.org](https://redcross.org) | 2 | Read bin on www.redcross.org — 404 Error; Find a blood appointment by zip code | [OpenAPI](https://unbrowse.ai/api/v1/sites/redcross.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/redcross.org/mcp) |
+| [redfin.com](https://redfin.com) | 1 | Redfin search: homes for sale in a region | [OpenAPI](https://unbrowse.ai/api/v1/sites/redfin.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/redfin.com/mcp) |
 | [redhat.com](https://redhat.com) | 2 | Read a page on redhat.com; Read well known openid configuration on www.redhat.com — Search \| Red Hat | [OpenAPI](https://unbrowse.ai/api/v1/sites/redhat.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/redhat.com/mcp) |
 | [rediff.com](https://rediff.com) | 2 | Read delivery asyncspc php on rediff.com — Rediff.com: News \| Rediffmail \| Stock Quotes \| Rediff Gurus; Read … | [OpenAPI](https://unbrowse.ai/api/v1/sites/rediff.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/rediff.com/mcp) |
 | [redis.io](https://redis.io) | 1 | Read a page on redis.io | [OpenAPI](https://unbrowse.ai/api/v1/sites/redis.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/redis.io/mcp) |

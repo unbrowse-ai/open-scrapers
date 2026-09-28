@@ -1,6 +1,6 @@
 # Sites: K
 
-40 sites. Back to the [catalog](../README.md).
+37 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -8,8 +8,6 @@
 | [kaiserpermanente.org](https://kaiserpermanente.org) | 1 | Read kporg search on kaiserpermanente.org — Custom Care &amp; Coverage Just For You \| Kaiser Permanente | [OpenAPI](https://unbrowse.ai/api/v1/sites/kaiserpermanente.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kaiserpermanente.org/mcp) |
 | [kakaocorp.com](https://kakaocorp.com) | 1 | Read a page on kakaocorp.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/kakaocorp.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kakaocorp.com/mcp) |
 | [kalam.sindonews.com](https://kalam.sindonews.com) | 1 | Search kalam.sindonews.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/kalam.sindonews.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kalam.sindonews.com/mcp) |
-| [kamigame.jp](https://kamigame.jp) | 1 | Read a page on kamigame.jp | [OpenAPI](https://unbrowse.ai/api/v1/sites/kamigame.jp/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kamigame.jp/mcp) |
-| [kanunu8.com](https://kanunu8.com) | 1 | Read a page on kanunu8.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/kanunu8.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kanunu8.com/mcp) |
 | [karte.io](https://karte.io) | 1 | Read a page on karte.io | [OpenAPI](https://unbrowse.ai/api/v1/sites/karte.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/karte.io/mcp) |
 | [kemendikdasmen.go.id](https://kemendikdasmen.go.id) | 1 | Read a page on kemendikdasmen.go.id | [OpenAPI](https://unbrowse.ai/api/v1/sites/kemendikdasmen.go.id/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kemendikdasmen.go.id/mcp) |
 | [kepalabergetar.cfd](https://kepalabergetar.cfd) | 1 | Search kepalabergetar.cfd | [OpenAPI](https://unbrowse.ai/api/v1/sites/kepalabergetar.cfd/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kepalabergetar.cfd/mcp) |
@@ -18,7 +16,6 @@
 | [keylol.com](https://keylol.com) | 1 | Read a page on keylol.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/keylol.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/keylol.com/mcp) |
 | [khabaronline.ir](https://khabaronline.ir) | 1 | Read a page on khabaronline.ir | [OpenAPI](https://unbrowse.ai/api/v1/sites/khabaronline.ir/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/khabaronline.ir/mcp) |
 | [kiasuexampaper.com](https://kiasuexampaper.com) | 1 | Read a page on kiasuexampaper.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/kiasuexampaper.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kiasuexampaper.com/mcp) |
-| [kiasumart.com](https://kiasumart.com) | 1 | Read a page on kiasumart.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/kiasumart.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kiasumart.com/mcp) |
 | [kickstarter.com](https://kickstarter.com) | 2 | Open a Kickstarter project page; Browse Kickstarter category | [OpenAPI](https://unbrowse.ai/api/v1/sites/kickstarter.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kickstarter.com/mcp) |
 | [kidshealth.org](https://kidshealth.org) | 1 | Read a page on kidshealth.org | [OpenAPI](https://unbrowse.ai/api/v1/sites/kidshealth.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kidshealth.org/mcp) |
 | [kingbokep.tv](https://kingbokep.tv) | 1 | Read a page on kingbokep.tv | [OpenAPI](https://unbrowse.ai/api/v1/sites/kingbokep.tv/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/kingbokep.tv/mcp) |

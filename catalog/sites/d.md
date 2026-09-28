@@ -1,6 +1,6 @@
 # Sites: D
 
-112 sites. Back to the [catalog](../README.md).
+113 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -102,6 +102,7 @@
 | [dondominio.com](https://dondominio.com) | 1 | Read a page on dondominio.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/dondominio.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/dondominio.com/mcp) |
 | [donghuastream.org](https://donghuastream.org) | 1 | Read a page on donghuastream.org | [OpenAPI](https://unbrowse.ai/api/v1/sites/donghuastream.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/donghuastream.org/mcp) |
 | [dotnet.microsoft.com](https://dotnet.microsoft.com) | 1 | Read a page on dotnet.microsoft.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/dotnet.microsoft.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/dotnet.microsoft.com/mcp) |
+| [doubleverify.com](https://doubleverify.com) | 1 | Read a page on doubleverify.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/doubleverify.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/doubleverify.com/mcp) |
 | [douyu.com](https://douyu.com) | 1 | Read a page on douyu.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/douyu.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/douyu.com/mcp) |
 | [downloads.khinsider.com](https://downloads.khinsider.com) | 1 | Read a page on downloads.khinsider.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/downloads.khinsider.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/downloads.khinsider.com/mcp) |
 | [dramaboxdb.com](https://dramaboxdb.com) | 1 | Read a page on dramaboxdb.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/dramaboxdb.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/dramaboxdb.com/mcp) |

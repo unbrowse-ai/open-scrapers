@@ -1,6 +1,6 @@
 # Sites: A
 
-186 sites. Back to the [catalog](../README.md).
+184 sites. Back to the [catalog](../README.md).
 
 | Site | Tools | What they do | API |
 |---|---:|---|---|
@@ -22,7 +22,6 @@
 | [acuityscheduling.com](https://acuityscheduling.com) | 1 | Read a page on acuityscheduling.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/acuityscheduling.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/acuityscheduling.com/mcp) |
 | [adevarul.ro](https://adevarul.ro) | 1 | Read a page on adevarul.ro | [OpenAPI](https://unbrowse.ai/api/v1/sites/adevarul.ro/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/adevarul.ro/mcp) |
 | [adguard-dns.io](https://adguard-dns.io) | 1 | Read a page on adguard-dns.io | [OpenAPI](https://unbrowse.ai/api/v1/sites/adguard-dns.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/adguard-dns.io/mcp) |
-| [adjust.com](https://adjust.com) | 1 | Read a page on adjust.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/adjust.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/adjust.com/mcp) |
 | [admissions.nic.in](https://admissions.nic.in) | 3 | Read jsons home con json on admissions.nic.in — Admissions; Read a page on admissions.nic.in; Read cmsservice… | [OpenAPI](https://unbrowse.ai/api/v1/sites/admissions.nic.in/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/admissions.nic.in/mcp) |
 | [adobe.com](https://adobe.com) | 3 | Read a page on adobe.com; Read cc shared placeholders json on www.adobe.com — Adobe Photoshop pricing &#x26; … | [OpenAPI](https://unbrowse.ai/api/v1/sites/adobe.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/adobe.com/mcp) |
 | [ads.tiktok.com](https://ads.tiktok.com) | 3 | Read report creative center get top contents item detail on ads.tiktok.com — TikTok One Creative Suite; Read … | [OpenAPI](https://unbrowse.ai/api/v1/sites/ads.tiktok.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/ads.tiktok.com/mcp) |
@@ -100,19 +99,20 @@
 | [aniworld.to](https://aniworld.to) | 1 | Read a page on aniworld.to | [OpenAPI](https://unbrowse.ai/api/v1/sites/aniworld.to/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/aniworld.to/mcp) |
 | [anthropic.com](https://anthropic.com) | 3 | Read a page on anthropic.com; Browse Anthropic news articles; Read country on anthropic.com — Home \ Anthropic | [OpenAPI](https://unbrowse.ai/api/v1/sites/anthropic.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/anthropic.com/mcp) |
 | [anthropic.skilljar.com](https://anthropic.skilljar.com) | 1 | Read a page on anthropic.skilljar.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/anthropic.skilljar.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/anthropic.skilljar.com/mcp) |
-| [anu.edu.au](https://anu.edu.au) | 1 | Read a page on anu.edu.au | [OpenAPI](https://unbrowse.ai/api/v1/sites/anu.edu.au/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/anu.edu.au/mcp) |
 | [aov-news.com](https://aov-news.com) | 2 | Read a page on aov-news.com; Search aov-news.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/aov-news.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/aov-news.com/mcp) |
 | [api.adviceslip.com](https://api.adviceslip.com) | 1 | Random advice | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.adviceslip.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.adviceslip.com/mcp) |
 | [api.agify.io](https://api.agify.io) | 1 | predict age from name | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.agify.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.agify.io/mcp) |
+| [api.ashbyhq.com](https://api.ashbyhq.com) | 1 | Ashby job board: open jobs | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.ashbyhq.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.ashbyhq.com/mcp) |
 | [api.chucknorris.io](https://api.chucknorris.io) | 1 | get a chuck norris joke | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.chucknorris.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.chucknorris.io/mcp) |
 | [api.coingecko.com](https://api.coingecko.com) | 1 | get bitcoin price | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.coingecko.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.coingecko.com/mcp) |
 | [api.crossref.org](https://api.crossref.org) | 1 | search papers about machine learning | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.crossref.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.crossref.org/mcp) |
 | [api.genderize.io](https://api.genderize.io) | 1 | predict gender from name | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.genderize.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.genderize.io/mcp) |
+| [api.lever.co](https://api.lever.co) | 1 | Lever job board: open postings | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.lever.co/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.lever.co/mcp) |
 | [api.nasa.gov](https://api.nasa.gov) | 1 | get astronomy picture of the day | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.nasa.gov/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.nasa.gov/mcp) |
 | [api.nationalize.io](https://api.nationalize.io) | 1 | predict nationality from name | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.nationalize.io/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.nationalize.io/mcp) |
 | [api.stackexchange.com](https://api.stackexchange.com) | 1 | get top stackoverflow questions | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.stackexchange.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.stackexchange.com/mcp) |
 | [api.worldbank.org](https://api.worldbank.org) | 1 | get singapore data | [OpenAPI](https://unbrowse.ai/api/v1/sites/api.worldbank.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/api.worldbank.org/mcp) |
-| [apnic.net](https://apnic.net) | 3 | Read lists 7 b1 7 d on www.apnic.net — Whois search &#8211; APNIC; Read a page on apnic.net; APNIC Whois look… | [OpenAPI](https://unbrowse.ai/api/v1/sites/apnic.net/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/apnic.net/mcp) |
+| [apnic.net](https://apnic.net) | 3 | Read lists on www.apnic.net — Whois search &#8211; APNIC; Read a page on apnic.net; APNIC Whois lookup | [OpenAPI](https://unbrowse.ai/api/v1/sites/apnic.net/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/apnic.net/mcp) |
 | [apollopharmacy.in](https://apollopharmacy.in) | 1 | Read a page on apollopharmacy.in | [OpenAPI](https://unbrowse.ai/api/v1/sites/apollopharmacy.in/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/apollopharmacy.in/mcp) |
 | [app.flowtheroom.com](https://app.flowtheroom.com) | 1 | Read a page on app.flowtheroom.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/app.flowtheroom.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/app.flowtheroom.com/mcp) |
 | [app.hyperliquid.xyz](https://app.hyperliquid.xyz) | 1 | Read market data and order book for a trading pair | [OpenAPI](https://unbrowse.ai/api/v1/sites/app.hyperliquid.xyz/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/app.hyperliquid.xyz/mcp) |
@@ -140,7 +140,7 @@
 | [ar.cienradios.com](https://ar.cienradios.com) | 1 | Read a page on ar.cienradios.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/ar.cienradios.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/ar.cienradios.com/mcp) |
 | [archive-digger.com](https://archive-digger.com) | 1 | Read a page on archive-digger.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/archive-digger.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/archive-digger.com/mcp) |
 | [archlinux.org](https://archlinux.org) | 3 | Read a page on archlinux.org; Read latest news; Search packages | [OpenAPI](https://unbrowse.ai/api/v1/sites/archlinux.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/archlinux.org/mcp) |
-| [arduino.cc](https://arduino.cc) | 2 | Read a page on arduino.cc; Read 7 b2 7 d product ventuno q json on arduino.cc — Arduino - Home | [OpenAPI](https://unbrowse.ai/api/v1/sites/arduino.cc/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/arduino.cc/mcp) |
+| [arduino.cc](https://arduino.cc) | 2 | Read a page on arduino.cc; Read product ventuno q json on arduino.cc — Arduino - Home | [OpenAPI](https://unbrowse.ai/api/v1/sites/arduino.cc/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/arduino.cc/mcp) |
 | [argentina.gob.ar](https://argentina.gob.ar) | 1 | Read a page on argentina.gob.ar | [OpenAPI](https://unbrowse.ai/api/v1/sites/argentina.gob.ar/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/argentina.gob.ar/mcp) |
 | [army.mil](https://army.mil) | 2 | Read a page on army.mil; Read news on www.army.mil — Army Worldwide \| The United States Army | [OpenAPI](https://unbrowse.ai/api/v1/sites/army.mil/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/army.mil/mcp) |
 | [arrivalcardonline.com](https://arrivalcardonline.com) | 1 | Read a page on arrivalcardonline.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/arrivalcardonline.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/arrivalcardonline.com/mcp) |
@@ -152,8 +152,6 @@
 | [artificialanalysis.ai](https://artificialanalysis.ai) | 1 | Read a page on artificialanalysis.ai | [OpenAPI](https://unbrowse.ai/api/v1/sites/artificialanalysis.ai/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/artificialanalysis.ai/mcp) |
 | [artofproblemsolving.com](https://artofproblemsolving.com) | 1 | Read a page on artofproblemsolving.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/artofproblemsolving.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/artofproblemsolving.com/mcp) |
 | [artstation.com](https://artstation.com) | 1 | Search artworks on ArtStation | [OpenAPI](https://unbrowse.ai/api/v1/sites/artstation.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/artstation.com/mcp) |
-| [arxiv.org](https://arxiv.org) | 2 | Search arXiv and sort by newest; Read a page on arxiv.org | [OpenAPI](https://unbrowse.ai/api/v1/sites/arxiv.org/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/arxiv.org/mcp) |
-| [aseanutdfc.com](https://aseanutdfc.com) | 1 | Read a page on aseanutdfc.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/aseanutdfc.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/aseanutdfc.com/mcp) |
 | [asia.arlo.com](https://asia.arlo.com) | 1 | Open a product detail page on Arlo | [OpenAPI](https://unbrowse.ai/api/v1/sites/asia.arlo.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/asia.arlo.com/mcp) |
 | [asia.nikkei.com](https://asia.nikkei.com) | 1 | Read a page on asia.nikkei.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/asia.nikkei.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/asia.nikkei.com/mcp) |
 | [asia.pokemon-card.com](https://asia.pokemon-card.com) | 1 | Read a page on asia.pokemon-card.com | [OpenAPI](https://unbrowse.ai/api/v1/sites/asia.pokemon-card.com/openapi.json) · [MCP](https://unbrowse.ai/api/v1/sites/asia.pokemon-card.com/mcp) |
