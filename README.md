@@ -38,6 +38,8 @@ const rentals = await scrape("78704", { type: "FOR_RENT", minBeds: 2, max: 50 })
 
 Not here yet: Airbnb, Google News, Medium. Their public tools do not yet return the raw page a structured parser needs from every network; they will be added when they do.
 
+Each scraper also lives in its own repo, if you only need one: [amazon-scraper](https://github.com/unbrowse-ai/amazon-scraper) · [zillow-scraper](https://github.com/unbrowse-ai/zillow-scraper) · [youtube-scraper](https://github.com/unbrowse-ai/youtube-scraper).
+
 ## Site API catalog
 
 [`catalog/`](catalog) lists every site in the public Unbrowse registry that a query sweep reaches (2,400+ sites, 2,990+ tools, regenerated with `npm run catalog`): what each site's tools do, its OpenAPI document and its MCP URL. Any of them can be called from code:
