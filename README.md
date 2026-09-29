@@ -1,6 +1,6 @@
 # open-scrapers: structured scrapers and 1,000+ site APIs for agents and code
 
-Open-source web scrapers that return clean JSON records, not page text: Amazon products, Zillow listings, YouTube videos, Redfin homes, Craigslist posts, Google News articles, and jobs from Greenhouse, Lever and Ashby career sites. Plus a catalog of 2,000+ websites you can call as an API or an MCP server. Node.js, MIT licensed, built on the [Unbrowse](https://unbrowse.ai) SDK.
+Open-source web scrapers that return clean JSON records, not page text: Amazon products, Zillow listings, YouTube videos, Redfin homes, Airbnb stays, Pinterest pins, Medium articles, Craigslist posts, Google News articles, and jobs from Greenhouse, Lever and Ashby career sites. Plus a catalog of 2,000+ websites you can call as an API or an MCP server. Node.js, MIT licensed, built on the [Unbrowse](https://unbrowse.ai) SDK.
 
 - **No headless browser, no proxy pool.** Each page is requested from your own machine and parsed locally.
 - **Structured output.** Prices as numbers, dates as ISO strings, flags as booleans, with a documented field table per scraper.
@@ -23,6 +23,9 @@ node scrapers/career-site-jobs/index.mjs https://boards.greenhouse.io/figma leve
 node scrapers/craigslist/index.mjs austin --category apa --max-price 1500 > apartments.json
 node scrapers/google-news/index.mjs "nvidia" --when 7d > news.json
 node scrapers/redfin/index.mjs https://www.redfin.com/city/30818/TX/Austin --max 500 > redfin.json
+node scrapers/airbnb/index.mjs Lisbon --checkin 2026-11-10 --checkout 2026-11-14 --adults 2 > lisbon.json
+node scrapers/pinterest/index.mjs "kitchen ideas" --max 100 > pins.json
+node scrapers/medium/index.mjs tag:programming @karpathy --max 50 > medium.json
 ```
 
 JSON goes to stdout, progress to stderr. Each scraper is also an importable module:
@@ -42,11 +45,12 @@ const rentals = await scrape("78704", { type: "FOR_RENT", minBeds: 2, max: 50 })
 | [Career Site Jobs Scraper](scrapers/career-site-jobs) | Every open job on a Greenhouse, Lever or Ashby board: title, department, location, remote/hybrid, posted date, salary range, description | 530 jobs from 4 boards (Figma, Spotify, Ramp, Notion); salary on 374 |
 | [Craigslist Scraper](scrapers/craigslist) | Search results for any city and category: price, location, coordinates, photos, posted date, beds/sqft, odometer, job fields | 270 posts from 3 searches (Austin apartments, Seattle bikes, New York cars) |
 | [Redfin Scraper](scrapers/redfin) | Homes for sale in a city, county or neighbourhood: price, beds, baths, sqft, year built, days on market, coordinates, MLS id, photo | 500 homes (Austin, TX, 2 requests) + 50 (King County, WA, by price) |
+| [Airbnb Scraper](scrapers/airbnb) | Stays for any location: total and nightly price (USD), discount, rating, reviews, Guest Favourite, Superhost, bedrooms, beds, coordinates, photos; dates, guests, filters | 40 stays (Lisbon, 4 nights, 3 pages, 2026-09-30); price, rating, coordinates on all 40 |
+| [Pinterest Scraper](scrapers/pinterest) | Pins from a search, board, profile or pin URL: title, description, full-size image, video file, outbound link, saves, comments, pinner, board | 50 search pins + 41 from a board, a profile and a pin with details (2026-09-30); saves on 39 of 41 |
+| [Medium Scraper](scrapers/medium) | Articles by tag (newest or top), author, publication or search: author, publication, dates, reading time, claps, responses, tags; full text as Markdown | 188 articles from a tag, an author, a publication and a search + 9 with full text (2026-09-30) |
 | [Google News Scraper](scrapers/google-news) | Keyword search: headline, publisher, publisher site, publish date, link, related coverage; time filters; past the 100-result cap | 150 articles for "nvidia" (last 7 days, 3 requests) |
 
-Not here yet: Airbnb, Medium. Their public tools do not yet return the raw page a structured parser needs from every network; they will be added when they do.
-
-Each scraper also lives in its own repo, if you only need one: [amazon-scraper](https://github.com/unbrowse-ai/amazon-scraper) · [zillow-scraper](https://github.com/unbrowse-ai/zillow-scraper) · [youtube-scraper](https://github.com/unbrowse-ai/youtube-scraper) · [career-site-jobs-scraper](https://github.com/unbrowse-ai/career-site-jobs-scraper) · [craigslist-scraper](https://github.com/unbrowse-ai/craigslist-scraper) · [google-news-scraper](https://github.com/unbrowse-ai/google-news-scraper) · [redfin-scraper](https://github.com/unbrowse-ai/redfin-scraper).
+Each scraper also lives in its own repo, if you only need one: [amazon-scraper](https://github.com/unbrowse-ai/amazon-scraper) · [zillow-scraper](https://github.com/unbrowse-ai/zillow-scraper) · [youtube-scraper](https://github.com/unbrowse-ai/youtube-scraper) · [career-site-jobs-scraper](https://github.com/unbrowse-ai/career-site-jobs-scraper) · [craigslist-scraper](https://github.com/unbrowse-ai/craigslist-scraper) · [google-news-scraper](https://github.com/unbrowse-ai/google-news-scraper) · [redfin-scraper](https://github.com/unbrowse-ai/redfin-scraper) · [airbnb-scraper](https://github.com/unbrowse-ai/airbnb-scraper) · [pinterest-scraper](https://github.com/unbrowse-ai/pinterest-scraper) · [medium-scraper](https://github.com/unbrowse-ai/medium-scraper).
 
 ## Site API catalog
 
