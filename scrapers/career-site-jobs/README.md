@@ -2,13 +2,13 @@
 
 Scrape every open job from a company's careers site into structured JSON: title, department, team, locations, remote/hybrid/onsite, employment type, posted and updated dates, job and apply URLs, a salary range with currency and period, and the full job description as clean text (HTML on request). One scraper covers the three applicant tracking systems most startups and tech companies use: **Greenhouse**, **Lever** and **Ashby**.
 
-Paste a board URL (`boards.greenhouse.io/figma`, `jobs.lever.co/spotify`, `jobs.ashbyhq.com/ramp`), write `greenhouse:figma`, or just give a company's board name and the scraper finds which ATS hosts it. Each board is read from the ATS's own public job-board API through a public [Unbrowse](https://unbrowse.ai) tool; the request goes out from your machine and the JSON is parsed locally, so you get every job on the board, not a summary.
+Paste a board URL (`boards.greenhouse.io/figma`, `jobs.lever.co/spotify`, `jobs.ashbyhq.com/ramp`), write `greenhouse:figma`, or just give a company's board name and the scraper finds which ATS hosts it. Each board is read from the ATS's own public job-board API through a public [Unbrowse](https://unbrowse.ai) tool; the request goes out from your machine and the JSON is parsed locally, so you get every job on the board, not a summary. Without an Unbrowse key, or when that tool is unavailable, the scraper sends the same request straight to the site and parses it the same way.
 
 ## Quick start
 
 ```bash
 git clone https://github.com/unbrowse-ai/open-scrapers && cd open-scrapers && npm install
-export UNBROWSE_API_KEY=ub_live_...        # free key: https://unbrowse.ai
+export UNBROWSE_API_KEY=ub_live_...        # optional; free key: https://unbrowse.ai
 
 node scrapers/career-site-jobs/index.mjs https://boards.greenhouse.io/figma > figma.json
 node scrapers/career-site-jobs/index.mjs lever:spotify ashby:ramp notion > jobs.json
@@ -76,7 +76,7 @@ const jobs = await scrape("https://jobs.ashbyhq.com/ramp", { keywords: "engineer
 
 **Which companies work?** Any company whose careers page is hosted on Greenhouse, Lever or Ashby: most venture-backed tech companies. If a bare name is not found, open the company's careers page, click a job, and paste the board URL you land on.
 
-**Why a key?** Each board is fetched through Unbrowse's public Greenhouse, Lever and Ashby tools, which tell your machine which request to send. The key is free; the request leaves from your IP.
+**Do I need a key?** No. With a free [Unbrowse](https://unbrowse.ai) key, the scraper runs Unbrowse's public Greenhouse, Lever and Ashby tools first, which tell your machine which request to send. Without a key, or when a tool is unavailable, it sends the same request directly with a normal browser user agent (one `note:` line on stderr says so). Either way the request leaves from your IP, and your key is never sent to the site.
 
 **How fresh is the data?** Live: each run reads the board as it is now. Run it on a schedule and diff by `ats` + `jobId` to catch new postings.
 

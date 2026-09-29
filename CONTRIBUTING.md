@@ -21,8 +21,23 @@ Add a row to the root README and to `skills/README.md`.
 `lib/read-page.mjs` runs a public Unbrowse registry tool (for most sites `public.<host_with_underscores>.read_page`, input `{ path }`; check the input schema at `https://unbrowse.ai/api/v1/sites/<host>`) with **client egress**: Unbrowse tells your machine which request to send, your machine sends it to the site from its own IP, and the raw response goes back to Unbrowse so the run completes. `readPage` keeps that raw body and returns it, so `parse.mjs` can structure it.
 
 ```js
-const page = await readPage("public.zillow_com.read_page", { path: "/austin-tx/" }, { hosts: ["zillow.com"] });
+const page = await readPage("public.zillow_com.read_page", { path: "/austin-tx/" }, {
+  hosts: ["zillow.com"],
+  direct: { url: "https://www.zillow.com/austin-tx/" }, // the same request, for the direct fallback
+});
 ```
+
+### The direct fallback
+
+Every `readPage` call passes `direct: { url, method, headers, body }`: the request the tool stands for, built from the scraper's own input (a page URL, a JSON API URL, or a GraphQL POST body). `readPage` sends it straight to the site from your machine when:
+
+- `UNBROWSE_API_KEY` is not set (Unbrowse is skipped; one note points to https://unbrowse.ai for a free key);
+- the run fails before any request reached the site: the tool isn't in the registry (`capability_not_found`), needs a browser (`requires_browser`), the service is unreachable, or it refuses the key or has no credits;
+- the tool's first request is for a different page than `direct.url` (the tool changed). The session is closed unsent.
+
+After the first such failure the tool is skipped for the rest of the run, and one `note:` line goes to stderr. Direct requests carry a desktop browser user agent and accept headers plus `direct.headers` (for example Pinterest's `x-pinterest-pws-handler`), never cookies you didn't add and never the Unbrowse key. Redirects are followed by hand, only on `hosts`. A site refusal is never retried directly: it's the same IP, and it would get the same answer.
+
+Rules for `direct`: build it from the same input as the tool, so both paths hit the same page, and keep site-specific headers to what the site's own web app sends. Add a test when the request needs more than a URL (see `graphqlBody` in `scrapers/medium/parse.mjs`).
 
 ## The refusal rule (important)
 
@@ -46,10 +61,11 @@ Capture a real page, then trim it to the part the parser reads (embedded JSON, t
 
 ```bash
 npm test                                             # all parser tests
-node scrapers/<site>/index.mjs <example> > out.json  # one live run, with UNBROWSE_API_KEY set
+node scrapers/<site>/index.mjs <example> > out.json  # one live run with UNBROWSE_API_KEY set
+env -u UNBROWSE_API_KEY node scrapers/<site>/index.mjs <example> > direct.json  # and one direct
 ```
 
-Say in the PR what the live run returned (item count, which fields were filled) and from which country you ran it.
+Say in the PR what the live runs returned (item count, which fields were filled, the `requests:` line) and from which country you ran them.
 
 ## Style
 

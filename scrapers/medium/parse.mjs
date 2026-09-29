@@ -194,3 +194,22 @@ export function postId(v) {
   const m = seg.at(-1).match(/(?:^|-)([0-9a-f]{8,12})$/i);
   return m ? m[1].toLowerCase() : null;
 }
+
+// The GraphQL operations the public tools send, rebuilt here so the same request can go straight to Medium
+// when a tool cannot run. Keyed by the scraper's call kinds; `input` is the tool input.
+const POST_FIELDS = "id title mediumUrl uniqueSlug firstPublishedAt latestPublishedAt readingTime wordCount clapCount isLocked visibility detectedLanguage postResponses { count } tags { id displayTitle normalizedTagSlug } creator { id name username } collection { id name slug domain } previewImage { id } extendedPreviewContent { subtitle }";
+const CONTENT_FIELDS = "content(postMeteringOptions: {}) { isLockedPreviewOnly bodyModel { paragraphs { name type text href layout markups { type start end href anchorType userId } metadata { id } codeBlockMetadata { lang } mixtapeMetadata { href } iframe { mediaResource { href iframeSrc title } } } } }";
+const PAGED = `posts { ${POST_FIELDS} } pagingInfo { next { from limit } }`;
+const OPERATIONS = {
+  tag: ["TagFeed", `query TagFeed($t: String!, $m: TagFeedMode, $p: PagingOptions) { tagFeed(tagSlug: $t, mode: $m, paging: $p) { items { post { ${POST_FIELDS} } } pagingInfo { next { from limit } } } }`, (i) => ({ t: i.tag, m: i.mode, p: { limit: 25, from: i.from ?? "" } })],
+  author: ["UserPosts", `query UserPosts($u: ID!, $p: PagingOptions) { user(username: $u) { id name homepagePostsConnection(paging: $p) { ${PAGED} } } }`, (i) => ({ u: i.username, p: { limit: 25, from: i.from ?? "" } })],
+  publication: ["PublicationPosts", `query PublicationPosts($s: ID!, $p: PagingOptions) { collectionByDomainOrSlug(domainOrSlug: $s) { id name slug domain homepagePostsConnection(paging: $p) { ${PAGED} } } }`, (i) => ({ s: i.publication, p: { limit: 25, from: i.from ?? "" } })],
+  search: ["SearchPosts", `query SearchPosts($q: String!, $p: SearchPagingOptions) { search(query: $q) { ... on Search { posts(pagingOptions: $p) { ... on SearchPost { items { ${POST_FIELDS} } pagingInfo { next { page limit } } } } } } }`, (i) => ({ q: i.query, p: { limit: 25, page: Number(i.page) || 0 } })],
+  article: ["PostContent", `query PostContent($id: ID!) { post(id: $id) { ${POST_FIELDS} ${CONTENT_FIELDS} } }`, (i) => ({ id: i.id })],
+};
+
+/** JSON body for Medium's GraphQL endpoint (https://medium.com/_/graphql) for one call kind and tool input. */
+export function graphqlBody(kind, input) {
+  const [operationName, query, vars] = OPERATIONS[kind];
+  return JSON.stringify({ operationName, query, variables: vars(input) });
+}

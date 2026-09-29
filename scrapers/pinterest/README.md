@@ -2,13 +2,13 @@
 
 Scrape Pinterest pins into structured JSON: pin id and URL, title, description, alt text, full-size image URL and every image size, dominant colour, outbound link and its domain, video file (MP4 and HLS, with duration) for video pins, saves, comments, reactions, shares, hashtags, Pinterest's own visual annotations ("Kitchen Large Windows"), created date, the pinner (username, name, followers) and the board. Start from a keyword search, a board URL, a profile URL (the pins that account created) or single pin URLs. Paginates past the first page, 25 pins per request.
 
-Requests go to Pinterest's own resource API (the JSON its web app loads) through public [Unbrowse](https://unbrowse.ai) tools. Each request is sent from your machine and parsed locally, with no login, no cookies and no browser.
+Requests go to Pinterest's own resource API (the JSON its web app loads) through public [Unbrowse](https://unbrowse.ai) tools. Each request is sent from your machine and parsed locally, with no login, no cookies and no browser. Without an Unbrowse key, or when that tool is unavailable, the scraper sends the same request straight to the site and parses it the same way.
 
 ## Quick start
 
 ```bash
 git clone https://github.com/unbrowse-ai/open-scrapers && cd open-scrapers && npm install
-export UNBROWSE_API_KEY=ub_live_...        # free key: https://unbrowse.ai
+export UNBROWSE_API_KEY=ub_live_...        # optional; free key: https://unbrowse.ai
 
 node scrapers/pinterest/index.mjs "kitchen ideas" --max 100 > kitchen.json
 node scrapers/pinterest/index.mjs "pasta recipe" --videos --max 30 > pasta-videos.json
@@ -78,4 +78,4 @@ const pins = await scrape("fall outfits", { max: 75, details: true });
 
 **Other Pinterest domains?** `pinterest.co.uk`, `.de`, `.fr` and the rest are read as the same pins on pinterest.com.
 
-**Why a key?** The requests go through Unbrowse's public Pinterest tools, which tell your machine which request to send. The key is free; the request leaves from your IP.
+**Do I need a key?** No. With a free [Unbrowse](https://unbrowse.ai) key, the scraper runs Unbrowse's public Pinterest tools first, which tell your machine which request to send. Without a key, or when a tool is unavailable, it sends the same request directly with a normal browser user agent (one `note:` line on stderr says so). Either way the request leaves from your IP, and your key is never sent to the site.

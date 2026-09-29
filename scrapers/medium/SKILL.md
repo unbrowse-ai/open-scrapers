@@ -10,7 +10,7 @@ description: Get Medium articles as JSON from a tag, an author, a publication, a
 - Member-only articles give the free preview only (flagged `contentIsPreview`).
 
 ## Run
-Needs `UNBROWSE_API_KEY` (free at https://unbrowse.ai). From the repo root:
+Uses `UNBROWSE_API_KEY` when set (free at https://unbrowse.ai); without it, requests go straight to the site. From the repo root:
 
 ```bash
 node scrapers/medium/index.mjs tag:machine-learning --sort TOP_MONTH --max 50 > out.json

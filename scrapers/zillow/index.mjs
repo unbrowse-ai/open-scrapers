@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Zillow Scraper: for-sale, for-rent and recently-sold search results as structured JSON.
-// Pages are read through the public Unbrowse tool public.zillow_com.read_page, sent from this machine.
+// Pages are read through the public Unbrowse tool public.zillow_com.read_page, sent from this machine;
+// without a key, or when the tool is unavailable, the same page is requested directly.
 import { fileURLToPath } from "node:url";
 import { cli, readPage } from "../../lib/read-page.mjs";
 import { MAX_PAGES, PER_PAGE, checkSearchUrl, hasFilters, locationUrl, parseSearch, stateUrl, withFilters } from "./parse.mjs";
@@ -14,7 +15,7 @@ const pathOf = (url) => {
 };
 
 async function results(url) {
-  const page = await readPage(CAPABILITY, { path: pathOf(url) }, { hosts: HOSTS });
+  const page = await readPage(CAPABILITY, { path: pathOf(url) }, { hosts: HOSTS, direct: { url } });
   const parsed = parseSearch(page.body);
   if (!parsed) throw new Error(`Zillow did not return a results page for ${url}`);
   return parsed;
@@ -89,6 +90,6 @@ Usage: node scrapers/zillow/index.mjs <place | zillow.com search URL>... [option
   --max N                         listings per search (default 100, 41 per page, up to 820)
   --min-price --max-price --min-beds --max-beds --min-baths
 
-Needs UNBROWSE_API_KEY (free at https://unbrowse.ai).`,
+Uses UNBROWSE_API_KEY when set (free at https://unbrowse.ai); without it, requests go straight to the site.`,
   );
 }

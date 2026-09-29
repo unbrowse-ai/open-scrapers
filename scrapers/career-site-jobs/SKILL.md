@@ -10,7 +10,7 @@ description: Get every open job from a company's Greenhouse, Lever or Ashby care
 - The company's careers page runs on Greenhouse, Lever or Ashby (URLs like boards.greenhouse.io/x, jobs.lever.co/x, jobs.ashbyhq.com/x). Other job sites are out of scope.
 
 ## Run
-Needs `UNBROWSE_API_KEY` (free at https://unbrowse.ai). From the repo root:
+Uses `UNBROWSE_API_KEY` when set (free at https://unbrowse.ai); without it, requests go straight to the site. From the repo root:
 
 ```bash
 node scrapers/career-site-jobs/index.mjs https://boards.greenhouse.io/figma > out.json

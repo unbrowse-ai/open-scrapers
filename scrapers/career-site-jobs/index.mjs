@@ -1,15 +1,18 @@
 #!/usr/bin/env node
 // Career Site Jobs Scraper: every open job on a company's Greenhouse, Lever or Ashby job board as structured JSON.
-// Boards are read through public Unbrowse tools that call each ATS's own job-board API, sent from this machine.
+// Boards are read through public Unbrowse tools that call each ATS's own job-board API, sent from this machine;
+// without a key, or when a tool is unavailable, that API is called directly.
 import { fileURLToPath } from "node:url";
 import { RefusedError, cli, readPage } from "../../lib/read-page.mjs";
 import { ATS_LIST, makeFilter, parseBoard, parseTarget, prettySlug } from "./parse.mjs";
 
 // One public tool per ATS; each takes the board name as its only required input.
+// `url` is the ATS's own job-board API, requested directly when the tool cannot run.
+const enc = encodeURIComponent;
 export const TOOLS = {
-  greenhouse: { capability: "public.boards_api_greenhouse_io.get_anthropic_jobs", input: (slug) => ({ board: slug }), hosts: ["boards-api.greenhouse.io"] },
-  lever: { capability: "public.api_lever_co.get_postings_ro", input: (slug) => ({ company: slug }), hosts: ["api.lever.co"] },
-  ashby: { capability: "public.api_ashbyhq_com.get_job_board_notion", input: (slug) => ({ organization: slug }), hosts: ["api.ashbyhq.com"] },
+  greenhouse: { capability: "public.boards_api_greenhouse_io.get_anthropic_jobs", input: (slug) => ({ board: slug }), hosts: ["boards-api.greenhouse.io"], url: (slug) => `https://boards-api.greenhouse.io/v1/boards/${enc(slug)}/jobs?content=true&pay_transparency=true` },
+  lever: { capability: "public.api_lever_co.get_postings_ro", input: (slug) => ({ company: slug }), hosts: ["api.lever.co"], url: (slug) => `https://api.lever.co/v0/postings/${enc(slug)}?mode=json` },
+  ashby: { capability: "public.api_ashbyhq_com.get_job_board_notion", input: (slug) => ({ organization: slug }), hosts: ["api.ashbyhq.com"], url: (slug) => `https://api.ashbyhq.com/posting-api/job-board/${enc(slug)}?includeCompensation=true` },
 };
 
 class NotFound extends Error {}
@@ -19,7 +22,7 @@ async function fetchBoard({ ats, slug }) {
   const t = TOOLS[ats];
   try {
     // An empty board is a tiny but valid JSON body, so the generic "tiny body" check is off here.
-    const page = await readPage(t.capability, t.input(slug), { hosts: t.hosts, minBytes: 2 });
+    const page = await readPage(t.capability, t.input(slug), { hosts: t.hosts, minBytes: 2, direct: { url: t.url(slug), headers: { accept: "application/json" } } });
     return JSON.parse(page.body);
   } catch (err) {
     if (err instanceof RefusedError && err.page?.status === 404) throw new NotFound(`no ${ats} board named "${slug}"`);
@@ -107,6 +110,6 @@ Usage: node scrapers/career-site-jobs/index.mjs <board>... [options]
   --html                           add descriptionHtml
   --no-description                 drop descriptionText
 
-Needs UNBROWSE_API_KEY (free at https://unbrowse.ai).`,
+Uses UNBROWSE_API_KEY when set (free at https://unbrowse.ai); without it, requests go straight to the site.`,
   );
 }

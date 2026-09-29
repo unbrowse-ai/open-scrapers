@@ -10,7 +10,7 @@ description: Get Zillow listings (for sale, for rent, recently sold) for a city,
 - US listings only (zillow.com).
 
 ## Run
-Needs `UNBROWSE_API_KEY` (free at https://unbrowse.ai). From the repo root:
+Uses `UNBROWSE_API_KEY` when set (free at https://unbrowse.ai); without it, requests go straight to the site. From the repo root:
 
 ```bash
 node scrapers/zillow/index.mjs "Austin, TX" --max 100 > out.json

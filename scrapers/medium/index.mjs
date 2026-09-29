@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // Medium Scraper: articles from a tag, an author, a publication, a keyword search or article URLs, as structured JSON,
 // optionally with the full text as Markdown. Requests go to Medium's own GraphQL endpoint through public Unbrowse
-// tools, sent from this machine.
+// tools, sent from this machine; without a key, or when a tool is unavailable, that endpoint is called directly.
 import { fileURLToPath } from "node:url";
 import { cli, mapLimit, readPage } from "../../lib/read-page.mjs";
-import { TAG_MODES, parseContent, parseFeed, postId, publicationKey, responseData, tagSlug, toArticle, username } from "./parse.mjs";
+import { TAG_MODES, graphqlBody, parseContent, parseFeed, postId, publicationKey, responseData, tagSlug, toArticle, username } from "./parse.mjs";
 
 const TOOL = {
   tag: "public.medium_com.post_tag_feed",
@@ -20,7 +20,14 @@ const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const browserFetch = (url, init) => fetch(url, { ...init, headers: { ...init.headers, "user-agent": UA } });
 
 async function call(kind, input) {
-  const p = await readPage(TOOL[kind], input, { hosts: HOSTS, minBytes: 20, fetch: browserFetch });
+  // The request the tool stands for, sent straight to Medium's GraphQL endpoint when the tool cannot run.
+  const direct = {
+    url: "https://medium.com/_/graphql",
+    method: "POST",
+    headers: { "content-type": "application/json", accept: "application/json", "apollographql-client-name": "lite", origin: "https://medium.com", referer: "https://medium.com/" },
+    body: graphqlBody(kind, input),
+  };
+  const p = await readPage(TOOL[kind], input, { hosts: HOSTS, minBytes: 20, fetch: browserFetch, direct });
   return responseData(p.body);
 }
 
@@ -117,6 +124,6 @@ Usage: node scrapers/medium/index.mjs <input>... [options]
   --sort MODE    tags only: NEW (default), HOT, TOP_WEEK, TOP_MONTH, TOP_YEAR, TOP_ALL_TIME
   --content      add each article's body as Markdown and plain text (one request per article)
 
-Needs UNBROWSE_API_KEY (free at https://unbrowse.ai).`,
+Uses UNBROWSE_API_KEY when set (free at https://unbrowse.ai); without it, requests go straight to the site.`,
   );
 }

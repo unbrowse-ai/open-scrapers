@@ -10,7 +10,7 @@ description: Get YouTube search results or video stats (views, likes, comment co
 - Not for transcripts, comments or full channel uploads (not covered).
 
 ## Run
-Needs `UNBROWSE_API_KEY` (free at https://unbrowse.ai). From the repo root:
+Uses `UNBROWSE_API_KEY` when set (free at https://unbrowse.ai); without it, requests go straight to the site. From the repo root:
 
 ```bash
 node scrapers/youtube/index.mjs "<search terms>" --max 20 > out.json            # search cards

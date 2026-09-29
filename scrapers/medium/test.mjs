@@ -77,3 +77,12 @@ test("medium: inputs", () => {
   assert.deepEqual(classify("https://karpathy.medium.com/software-2-0-a64152b37c35"), { type: "article", key: "a64152b37c35" });
   assert.deepEqual(classify("rust async"), { type: "search", key: "rust async" });
 });
+
+test("graphqlBody: the tools' GraphQL operations for direct requests", async () => {
+  const { graphqlBody } = await import("./parse.mjs");
+  const tag = JSON.parse(graphqlBody("tag", { tag: "programming", mode: "NEW", from: "" }));
+  assert.equal(tag.operationName, "TagFeed");
+  assert.deepEqual(tag.variables, { t: "programming", m: "NEW", p: { limit: 25, from: "" } });
+  assert.deepEqual(JSON.parse(graphqlBody("search", { query: "rust", page: "2" })).variables, { q: "rust", p: { limit: 25, page: 2 } });
+  assert.match(JSON.parse(graphqlBody("article", { id: "abc" })).query, /content\(postMeteringOptions/);
+});

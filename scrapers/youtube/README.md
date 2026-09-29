@@ -2,13 +2,13 @@
 
 Scrape YouTube search results and video pages into JSON: title, channel, channel id, view count, likes, comment count, duration in seconds, publish date, category, tags, full description, subscriber count and thumbnail. No YouTube Data API quota, no Google Cloud project, no OAuth consent screen: the scraper reads the public pages and takes the data YouTube embeds in them.
 
-Each page is requested from your own machine through a public [Unbrowse](https://unbrowse.ai) tool and parsed locally, so the numbers are exactly what YouTube served.
+Each page is requested from your own machine through a public [Unbrowse](https://unbrowse.ai) tool and parsed locally, so the numbers are exactly what YouTube served. Without an Unbrowse key, or when that tool is unavailable, the scraper sends the same request straight to the site and parses it the same way.
 
 ## Quick start
 
 ```bash
 git clone https://github.com/unbrowse-ai/open-scrapers && cd open-scrapers && npm install
-export UNBROWSE_API_KEY=ub_live_...        # free key: https://unbrowse.ai
+export UNBROWSE_API_KEY=ub_live_...        # optional; free key: https://unbrowse.ai
 
 node scrapers/youtube/index.mjs "lofi hip hop" > lofi.json
 node scrapers/youtube/index.mjs "home espresso review" --max 10 --details > espresso.json
@@ -79,7 +79,7 @@ With `--details` (description shortened):
 
 **Why only about 20 results per search?** Further results load through a YouTube API call the public page tool does not cover. Use more specific queries, or several.
 
-**Why a key?** Pages are fetched through Unbrowse's public `youtube.com` tool, which tells your machine what to request. The key is free; the request leaves from your IP.
+**Do I need a key?** No. With a free [Unbrowse](https://unbrowse.ai) key, the scraper runs Unbrowse's public `youtube.com` tool first, which tells your machine which request to send. Without a key, or when a tool is unavailable, it sends the same request directly with a normal browser user agent (one `note:` line on stderr says so). Either way the request leaves from your IP, and your key is never sent to the site.
 
 **YouTube asked to "confirm you're not a bot".** The scraper closes the session without reporting the page and throws `RefusedError`. Wait, or use another network.
 

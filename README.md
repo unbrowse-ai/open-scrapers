@@ -8,13 +8,13 @@ Open-source web scrapers that return clean JSON records, not page text: Amazon p
 
 ## Quick start
 
-1. Get a free API key at [unbrowse.ai](https://unbrowse.ai).
+1. Optional: get a free API key at [unbrowse.ai](https://unbrowse.ai). With a key, each scraper runs the shared Unbrowse site tool first; without one, it requests the site directly from your machine (you'll see a one-line note on stderr).
 2. Install and run:
 
 ```bash
 git clone https://github.com/unbrowse-ai/open-scrapers && cd open-scrapers
 npm install
-export UNBROWSE_API_KEY=ub_live_...
+export UNBROWSE_API_KEY=ub_live_...   # optional
 
 node scrapers/amazon/index.mjs "wireless earbuds" --max 40 > earbuds.json
 node scrapers/zillow/index.mjs "Austin, TX" --type FOR_SALE --max 100 > austin.json
@@ -78,10 +78,12 @@ Or one site only: `https://unbrowse.ai/api/v1/sites/<host>/mcp` with an `Authori
 
 ## How it works
 
-Each scraper asks a public Unbrowse tool (for example `public.zillow_com.read_page`, or a site's own JSON API such as Craigslist search) which request to make, sends that request from your machine, and parses the raw response with its own tested parser (`parse.mjs`). If the site refuses your IP (captcha, 403, 429, bot page), the session is closed without reporting anything, so one blocked address never counts against a tool other people use. Details in [CONTRIBUTING.md](CONTRIBUTING.md).
+Each scraper asks a public Unbrowse tool (for example `public.youtube_com.read_page`, or a site's own JSON API such as Craigslist search) which request to make, sends that request from your machine, and parses the raw response with its own tested parser (`parse.mjs`). If the site refuses your IP (captcha, 403, 429, bot page), the session is closed without reporting anything, so one blocked address never counts against a tool other people use.
+
+Unbrowse is used when it's available (free key); otherwise the scraper falls back to a direct request. Every call also knows the exact request its tool stands for. When there is no API key, or Unbrowse can't run the tool before anything reached the site (the tool left the registry, needs a browser, the service is unreachable, or the tool now asks for a different page), that request goes straight to the site from your machine with a normal browser user agent. It gets the same refusal checks, and the same parser reads the answer. One line on stderr says so the first time, and the summary line counts requests by path (`requests: 3 via Unbrowse, 2 direct`). Your Unbrowse key is never sent to the site. Details in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ```
-lib/read-page.mjs        fetch one page through a public tool, from your IP; refusal handling
+lib/read-page.mjs        fetch one page through a public tool (or directly), from your IP; refusal handling
 scrapers/<site>/         index.mjs (CLI + API), parse.mjs, test.mjs, fixtures/, README.md, SKILL.md
 catalog/                 build.mjs, README.md, sites/<letter>.md, sites.json, USING.md
 skills/                  index of agent skills
@@ -93,7 +95,7 @@ skills/                  index of agent skills
 npm test
 ```
 
-Parser tests run offline on trimmed real pages in each `fixtures/` folder, plus tests of the refusal path.
+Parser tests run offline on trimmed real pages in each `fixtures/` folder, plus tests of the refusal path and the direct fallback.
 
 ## Contributing
 

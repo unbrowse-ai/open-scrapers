@@ -10,7 +10,7 @@ description: Get Pinterest pins as JSON from a keyword search, a board, a profil
 - Public pins only; no login. Profiles give the pins the account created (not their saved pins).
 
 ## Run
-Needs `UNBROWSE_API_KEY` (free at https://unbrowse.ai). From the repo root:
+Uses `UNBROWSE_API_KEY` when set (free at https://unbrowse.ai); without it, requests go straight to the site. From the repo root:
 
 ```bash
 node scrapers/pinterest/index.mjs "kitchen ideas" --max 100 > out.json

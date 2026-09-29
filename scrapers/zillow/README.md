@@ -2,13 +2,13 @@
 
 Scrape Zillow search results for any city, ZIP code or neighbourhood into structured JSON: price, beds, baths, square feet, lot size, address parts, coordinates, Zestimate, rent Zestimate, tax assessed value, days on Zillow, sold date, broker, photos, and unit ranges for apartment buildings. Works for homes for sale, rentals and recently sold homes, with price and bedroom filters, up to 820 listings per search.
 
-The scraper reads the same results page you see in a browser and takes the listing data Zillow embeds in it. Each page is requested from your own machine through a public [Unbrowse](https://unbrowse.ai) tool; parsing happens locally, so you get every field Zillow sends, not a text summary.
+The scraper reads the same results page you see in a browser and takes the listing data Zillow embeds in it. Each page is requested from your own machine through a public [Unbrowse](https://unbrowse.ai) tool; parsing happens locally, so you get every field Zillow sends, not a text summary. Without an Unbrowse key, or when that tool is unavailable, the scraper sends the same request straight to the site and parses it the same way.
 
 ## Quick start
 
 ```bash
 git clone https://github.com/unbrowse-ai/open-scrapers && cd open-scrapers && npm install
-export UNBROWSE_API_KEY=ub_live_...        # free key: https://unbrowse.ai
+export UNBROWSE_API_KEY=ub_live_...        # optional; free key: https://unbrowse.ai
 
 node scrapers/zillow/index.mjs "Austin, TX" --max 100 > austin.json
 node scrapers/zillow/index.mjs "78704" --type FOR_RENT --min-beds 2 --max-price 3000 > rentals.json
@@ -73,7 +73,7 @@ const homes = await scrape("Brooklyn, NY", { type: "FOR_RENT", max: 50, minBeds:
 
 ## FAQ
 
-**Why a key?** Pages are fetched through Unbrowse's public `zillow.com` tool, which tells your machine what to request. The key is free; the request leaves from your IP.
+**Do I need a key?** No. With a free [Unbrowse](https://unbrowse.ai) key, the scraper runs Unbrowse's public `zillow.com` tool first, which tells your machine which request to send. Without a key, or when a tool is unavailable, it sends the same request directly with a normal browser user agent (one `note:` line on stderr says so). Either way the request leaves from your IP, and your key is never sent to the site.
 
 **Zillow showed a "press and hold" check.** The scraper closes the session without reporting the page and throws `RefusedError`. Slow down (`--max` smaller), wait, or use another network.
 

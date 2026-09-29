@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 // YouTube Scraper: search results and video details (views, likes, comments count, channel, tags) as JSON.
-// Pages are read through the public Unbrowse tool public.youtube_com.read_page, sent from this machine.
+// Pages are read through the public Unbrowse tool public.youtube_com.read_page, sent from this machine;
+// without a key, or when the tool is unavailable, the same page is requested directly.
 import { fileURLToPath } from "node:url";
 import { cli, mapLimit, readPage } from "../../lib/read-page.mjs";
 import { parseSearch, parseVideo, videoId } from "./parse.mjs";
 
 const CAPABILITY = "public.youtube_com.read_page";
 const HOSTS = ["youtube.com"];
-const get = (path) => readPage(CAPABILITY, { path }, { hosts: HOSTS });
+const get = (path) => readPage(CAPABILITY, { path }, { hosts: HOSTS, direct: { url: `https://www.youtube.com${path}` } });
 
 /** Full details for one video (id or URL). */
 export async function scrapeVideo(idOrUrl) {
@@ -59,6 +60,6 @@ Usage: node scrapers/youtube/index.mjs <search terms | video URL | video id>... 
   --details    also read every video page (one extra call per video)
   --shorts     include Shorts in search results
 
-Needs UNBROWSE_API_KEY (free at https://unbrowse.ai).`,
+Uses UNBROWSE_API_KEY when set (free at https://unbrowse.ai); without it, requests go straight to the site.`,
   );
 }

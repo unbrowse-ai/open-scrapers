@@ -24,7 +24,7 @@ git clone https://github.com/unbrowse-ai/open-scrapers ~/open-scrapers && cd ~/o
 for s in amazon zillow youtube career-site-jobs craigslist google-news redfin airbnb pinterest medium; do
   mkdir -p ~/.claude/skills/$s-scraper && ln -sf ~/open-scrapers/scrapers/$s/SKILL.md ~/.claude/skills/$s-scraper/SKILL.md
 done
-export UNBROWSE_API_KEY=ub_live_...   # free at https://unbrowse.ai
+export UNBROWSE_API_KEY=ub_live_...   # optional, free at https://unbrowse.ai (without it, requests go straight to the site)
 ```
 
 The commands in each skill run from the repo root (`cd ~/open-scrapers`).

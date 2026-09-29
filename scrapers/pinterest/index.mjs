@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Pinterest Scraper: pins from a keyword search, a board, a user's created pins or single pin URLs, as structured JSON.
-// Requests go to Pinterest's own resource API (the JSON its web app loads) through public Unbrowse tools, sent from this machine.
+// Requests go to Pinterest's own resource API (the JSON its web app loads) through public Unbrowse tools, sent from this machine;
+// without a key, or when a tool is unavailable, that API is called directly.
 import { fileURLToPath } from "node:url";
 import { cli, mapLimit, readPage } from "../../lib/read-page.mjs";
 import { ORIGIN, classifyUrl, mergePin, parseResource, toolInput } from "./parse.mjs";
@@ -13,13 +14,30 @@ const TOOL = {
   userPins: "public.pinterest_com.get_user_activity_pins_resource_get",
 };
 const HOSTS = ["pinterest.com"];
+// The request each tool stands for: Pinterest's resource API with the page handler its web app sends
+// (without x-pinterest-pws-handler it answers 403). Used directly when a tool cannot run. No cookies.
+const RESOURCE = {
+  [TOOL.search]: ["BaseSearchResource", "www/search/[scope].js"],
+  [TOOL.pin]: ["PinResource", "www/pin/[id].js"],
+  [TOOL.board]: ["BoardResource", "www/[username]/[slug].js"],
+  [TOOL.boardFeed]: ["BoardFeedResource", "www/[username]/[slug].js"],
+  [TOOL.userPins]: ["UserActivityPinsResource", "www/[username]/_created.js"],
+};
+function directRequest(tool, input) {
+  const [name, handler] = RESOURCE[tool];
+  return {
+    url: `${ORIGIN}/resource/${name}/get/?${new URLSearchParams(input)}`,
+    headers: { accept: "application/json, text/javascript, */*, q=0.01", "x-requested-with": "XMLHttpRequest", "x-pinterest-pws-handler": handler, "x-pinterest-source-url": input.source_url, "x-pinterest-appstate": "active", referer: `${ORIGIN}/` },
+  };
+}
 const PAGE_SIZE = 25;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /** One resource call → parseResource(). A 404 (pin, board or user gone) is "not found", not a refusal of this IP. */
 async function resource(tool, options, sourceUrl) {
   try {
-    const p = await readPage(tool, toolInput(options, sourceUrl), { hosts: HOSTS, minBytes: 50 });
+    const input = toolInput(options, sourceUrl);
+    const p = await readPage(tool, input, { hosts: HOSTS, minBytes: 50, direct: directRequest(tool, input) });
     return parseResource(p.body);
   } catch (err) {
     if (err.page?.status === 404) return { status: "not_found", pins: [], data: null, bookmark: null };
@@ -116,6 +134,6 @@ Usage: node scrapers/pinterest/index.mjs <keyword | Pinterest URL>... [options]
   --videos       keyword search: video pins only
   --details      open every pin: saves, comments, reactions, video files, outbound link (one request per pin)
 
-Needs UNBROWSE_API_KEY (free at https://unbrowse.ai).`,
+Uses UNBROWSE_API_KEY when set (free at https://unbrowse.ai); without it, requests go straight to the site.`,
   );
 }

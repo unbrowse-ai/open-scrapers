@@ -2,13 +2,13 @@
 
 Scrape Medium articles into structured JSON: article id and URL, title, subtitle, author (name, username, profile URL), publication (name, slug, custom domain), publish and update dates, reading time, word count, claps, responses, tags, preview image, language and the member-only flag. Start from a tag (newest, hot or top of the week, month, year or all time), an author, a publication (by slug or custom domain), a keyword search or article URLs. Add `--content` for the full article body as Markdown and plain text, with headings, lists, code blocks, links, images and embeds; member-only articles return the free preview and are flagged. Paginates, 25 articles per request.
 
-Requests go to Medium's own GraphQL endpoint (the API its website uses) through public [Unbrowse](https://unbrowse.ai) tools. Each request is sent from your machine and parsed locally: no login, no 10-item RSS limit, no browser.
+Requests go to Medium's own GraphQL endpoint (the API its website uses) through public [Unbrowse](https://unbrowse.ai) tools. Each request is sent from your machine and parsed locally: no login, no 10-item RSS limit, no browser. Without an Unbrowse key, or when that tool is unavailable, the scraper sends the same request straight to the site and parses it the same way.
 
 ## Quick start
 
 ```bash
 git clone https://github.com/unbrowse-ai/open-scrapers && cd open-scrapers && npm install
-export UNBROWSE_API_KEY=ub_live_...        # free key: https://unbrowse.ai
+export UNBROWSE_API_KEY=ub_live_...        # optional; free key: https://unbrowse.ai
 
 node scrapers/medium/index.mjs tag:programming --max 100 > programming.json
 node scrapers/medium/index.mjs tag:machine-learning --sort TOP_MONTH --max 50 > ml-top.json
@@ -86,4 +86,4 @@ const top = await scrape("tag:startup", { sort: "TOP_YEAR", max: 30, content: tr
 
 **How far back does a tag go?** `NEW` pages back through the tag's history; the `TOP_*` modes rank a fixed window. Authors and publications page through everything they published.
 
-**Why a key?** The requests go through Unbrowse's public Medium tools, which tell your machine which request to send. The key is free; the request leaves from your IP.
+**Do I need a key?** No. With a free [Unbrowse](https://unbrowse.ai) key, the scraper runs Unbrowse's public Medium tools first, which tell your machine which request to send. Without a key, or when a tool is unavailable, it sends the same request directly with a normal browser user agent (one `note:` line on stderr says so). Either way the request leaves from your IP, and your key is never sent to the site.
